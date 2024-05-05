@@ -18,18 +18,6 @@ LEFT JOIN
     USING(song_id);
 
 
--- Amount of songs per year (Probably not include)
-SELECT
-	YEAR(release_date_standard),
-	COUNT(*)
-FROM
-	attributes
-GROUP BY
-	YEAR(release_date_standard)
-ORDER BY
-	YEAR(release_date_standard);
-
-    
 -- Avg of all the audio features
 SELECT
 	AVG(popularity),

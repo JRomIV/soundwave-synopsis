@@ -25,9 +25,10 @@ LEFT JOIN
 
 -- Most popular albums in 2018
 SELECT
-    ROW_NUMBER() OVER(ORDER BY album_popularity DESC) AS album_rank,
+    DENSE_RANK() OVER(ORDER BY album_popularity DESC, year_end_score DESC) AS album_rank,
     album_name,
-    artist_name
+    artist_name,
+    album_popularity
 FROM
 	temp_artists_albums
 WHERE
@@ -44,7 +45,8 @@ SELECT
 	RANK() OVER(ORDER BY SUM(year_end_score) DESC) as rank_album,
     album_name,
     artist_name,
-    release_date
+    release_date,
+    year_end_score
 FROM
 	temp_artists_albums
 WHERE
@@ -54,7 +56,8 @@ WHERE
 GROUP BY
 	album_name,
     artist_name,
-    release_date
+    release_date,
+    year_end_score
 LIMIT
 	100;
 

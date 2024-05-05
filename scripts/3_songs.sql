@@ -21,10 +21,11 @@ LEFT JOIN
 
 -- Most popular songs in 2018
 SELECT
-	ROW_NUMBER() OVER(ORDER BY s.popularity DESC) AS song_rank,
+	RANK() OVER(ORDER BY s.popularity DESC, sp.year_end_score DESC) AS song_rank,
 	s.song_name,
     tn.artist_name,
-    s.explicit
+    s.explicit,
+    s.popularity
 FROM
 	songs s
 LEFT JOIN
@@ -45,7 +46,8 @@ SELECT
 	RANK() OVER(ORDER BY SUM(sp.year_end_score) DESC) AS song_rank,
 	s.song_name,
     tn.artist_name,
-    tn.release_date
+    tn.release_date,
+    sp.year_end_score
 FROM
 	song_pop sp
 LEFT JOIN
@@ -60,7 +62,8 @@ WHERE
 GROUP BY
 	s.song_name,
     tn.artist_name,
-    tn.release_date
+    tn.release_date,
+    sp.year_end_score
 LIMIT
 	100;
 

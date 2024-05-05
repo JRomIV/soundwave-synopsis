@@ -1,8 +1,9 @@
--- Top 100 streamed artists of 2018
+-- Most popular artists of 2018
 SELECT
-	DENSE_RANK() OVER(ORDER BY apop.year_end_score DESC) as artist_rank,
+	DENSE_RANK() OVER(ORDER BY a.popularity DESC, apop.year_end_score DESC) as artist_rank,
     a.name,
-    a.main_genre
+    a.main_genre,
+    a.popularity
 FROM
 	artists a
 LEFT JOIN
@@ -18,7 +19,8 @@ LIMIT
 SELECT
 	RANK() OVER(ORDER BY SUM(apop.year_end_score) DESC) as artist_rank,
     a.name,
-    a.main_genre
+    a.main_genre,
+    apop.year_end_score
 FROM
 	artists a
 LEFT JOIN
@@ -29,7 +31,8 @@ WHERE
     AND a.name != 'Various Artists'
 GROUP BY
 	a.name,
-    a.main_genre
+    a.main_genre,
+    apop.year_end_score
 LIMIT
 	100;
     
