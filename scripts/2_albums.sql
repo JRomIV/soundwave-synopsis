@@ -21,8 +21,7 @@ LEFT JOIN
 LEFT JOIN
 	artists art
     ON r.artist_id = art.artist_id;
-    
-    
+
 
 -- Most popular albums in 2018
 SELECT
@@ -40,14 +39,11 @@ LIMIT
 	100;
  
  
-
- 
 -- Most popular albums of the decade
 SELECT
 	RANK() OVER(ORDER BY SUM(year_end_score) DESC) as rank_album,
     album_name,
     artist_name,
-    SUM(year_end_score) AS year_end_score,
     release_date
 FROM
 	temp_artists_albums
@@ -61,7 +57,8 @@ GROUP BY
     release_date
 LIMIT
 	100;
-	
+
+
 -- Longest trending albums
 SELECT
 	MAX(ac.weeks_on_chart) AS weeks_on_chart,

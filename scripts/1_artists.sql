@@ -14,13 +14,11 @@ WHERE
 LIMIT
 	100;
     
-
 -- Most popular artists of the decade
 SELECT
 	RANK() OVER(ORDER BY SUM(apop.year_end_score) DESC) as artist_rank,
     a.name,
-    a.main_genre,
-    SUM(apop.year_end_score) AS year_end_score
+    a.main_genre
 FROM
 	artists a
 LEFT JOIN

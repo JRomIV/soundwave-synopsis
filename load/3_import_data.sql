@@ -1,11 +1,11 @@
--- import acoustic features data (20405 Rows)
+-- import acoustic features data
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/acoustic_features.csv'
 INTO TABLE acoustic_features
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
--- import table for albums (26519 rows)
+-- import table for albums
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/albums.csv'
 INTO TABLE albums
 FIELDS TERMINATED BY '\t'
@@ -13,7 +13,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- import table for album_chart (471706 rows)
+-- import table for album_chart
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/album_chart.csv'
 INTO TABLE album_chart
 FIELDS TERMINATED BY '\t'
@@ -21,7 +21,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for album_pop (39469 Rows)
+-- create table for album_pop
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/album_pop.csv'
 INTO TABLE album_pop
 FIELDS TERMINATED BY '\t'
@@ -29,7 +29,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for artists (11518 Rows)
+-- create table for artists
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/artists.csv'
 INTO TABLE artists
 FIELDS TERMINATED BY '\t'
@@ -37,7 +37,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for artist_chart (530379 Rows)
+-- create table for artist_chart
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/artist_chart.csv'
 INTO TABLE artist_chart
 FIELDS TERMINATED BY '\t'
@@ -45,7 +45,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for artist_pop (36998 Rows)
+-- create table for artist_pop
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/artist_pop.csv'
 INTO TABLE artist_pop
 FIELDS TERMINATED BY '\t'
@@ -53,7 +53,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for releases (26523 Rows)
+-- create table for releases
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/releases.csv'
 INTO TABLE releases
 FIELDS TERMINATED BY '\t'
@@ -61,7 +61,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for songs (20405 Rows)
+-- create table for songs
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/songs.csv'
 INTO TABLE songs
 FIELDS TERMINATED BY '\t'
@@ -69,7 +69,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
--- create table for song_chart (250392)
+-- create table for song_chart
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/song_chart.csv'
 INTO TABLE song_chart
 FIELDS TERMINATED BY '\t'

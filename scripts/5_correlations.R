@@ -1,24 +1,20 @@
 # import data
-temp_table <- read.csv("C:/Users/Joseph Romero IV/OneDrive/Documents/Personal/Projects/music_o_set/temp_export.csv")
-
-# alter data types
-temp_table$explicit <- as.logical(temp_table$explicit)
-temp_table$release_date_standard <- as.Date(temp_table$release_date_standard, format = '%m/%d/%Y')
+temp_attributes <- read.csv("temp_attributes.csv")
 
 # defining correlations
-duration <- cor.test(temp_table$popularity, temp_table$duration_ms)
-key <- cor.test(temp_table$popularity, temp_table$key)
-mode <- cor.test(temp_table$popularity, temp_table$mode)
-time_signature <- cor.test(temp_table$popularity, temp_table$time_signature)
-acousticness <- cor.test(temp_table$popularity, temp_table$acousticness)
-danceability <- cor.test(temp_table$popularity, temp_table$danceability)
-energy <- cor.test(temp_table$popularity, temp_table$energy)
-instrumentalness <- cor.test(temp_table$popularity, temp_table$instrumentalness)
-liveness <- cor.test(temp_table$popularity, temp_table$liveness)
-loudness <- cor.test(temp_table$popularity, temp_table$loudness)
-speechiness <- cor.test(temp_table$popularity, temp_table$speechiness)
-valence <- cor.test(temp_table$popularity, temp_table$valence)
-tempo <- cor.test(temp_table$popularity, temp_table$tempo)
+duration <- cor.test(temp_attributes$popularity, temp_attributes$duration_ms)
+key <- cor.test(temp_attributes$popularity, temp_attributes$key)
+mode <- cor.test(temp_attributes$popularity, temp_attributes$mode)
+time_signature <- cor.test(temp_attributes$popularity, temp_attributes$time_signature)
+acousticness <- cor.test(temp_attributes$popularity, temp_attributes$acousticness)
+danceability <- cor.test(temp_attributes$popularity, temp_attributes$danceability)
+energy <- cor.test(temp_attributes$popularity, temp_attributes$energy)
+instrumentalness <- cor.test(temp_attributes$popularity, temp_attributes$instrumentalness)
+liveness <- cor.test(temp_attributes$popularity, temp_attributes$liveness)
+loudness <- cor.test(temp_attributes$popularity, temp_attributes$loudness)
+speechiness <- cor.test(temp_attributes$popularity, temp_attributes$speechiness)
+valence <- cor.test(temp_attributes$popularity, temp_attributes$valence)
+tempo <- cor.test(temp_attributes$popularity, temp_attributes$tempo)
 
 
 

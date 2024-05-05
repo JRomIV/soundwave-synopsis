@@ -45,7 +45,6 @@ SELECT
 	RANK() OVER(ORDER BY SUM(sp.year_end_score) DESC) AS song_rank,
 	s.song_name,
     tn.artist_name,
-    SUM(sp.year_end_score) AS year_end_score,
     tn.release_date
 FROM
 	song_pop sp
@@ -64,6 +63,7 @@ GROUP BY
     tn.release_date
 LIMIT
 	100;
+
 
 -- Longest trending songs
 SELECT
