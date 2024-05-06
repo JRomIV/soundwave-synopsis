@@ -1,6 +1,6 @@
 -- Most popular artists of 2018
 SELECT
-	DENSE_RANK() OVER(ORDER BY a.popularity DESC, apop.year_end_score DESC) as artist_rank,
+	RANK() OVER(ORDER BY a.popularity DESC, apop.year_end_score DESC) as artist_rank,
     a.name,
     a.main_genre,
     a.popularity
@@ -17,24 +17,25 @@ LIMIT
     
 -- Most popular artists of the decade
 SELECT
-	RANK() OVER(ORDER BY SUM(apop.year_end_score) DESC) as artist_rank,
+    RANK() OVER(ORDER BY SUM(apop.year_end_score) DESC) AS artist_rank,
     a.name,
     a.main_genre,
-    apop.year_end_score
+    SUM(apop.year_end_score) AS total_year_end_score
 FROM
-	artists a
+    artists a
 LEFT JOIN
-	artist_pop apop
-    USING(artist_id)
+    artist_pop apop
+    ON a.artist_id = apop.artist_id 
 WHERE
-	apop.year BETWEEN '2010' AND '2018'
+    apop.year BETWEEN '2010' AND '2018'
     AND a.name != 'Various Artists'
 GROUP BY
-	a.name,
-    a.main_genre,
-    apop.year_end_score
+    a.name,
+    a.main_genre  -- Only group by name and genre
 LIMIT
-	100;
+    100;
+
+
     
 -- Longest trending artists     
 SELECT

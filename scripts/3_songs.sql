@@ -47,7 +47,7 @@ SELECT
 	s.song_name,
     tn.artist_name,
     tn.release_date,
-    sp.year_end_score
+    SUM(sp.year_end_score) AS total_year_end_score
 FROM
 	song_pop sp
 LEFT JOIN
@@ -62,8 +62,7 @@ WHERE
 GROUP BY
 	s.song_name,
     tn.artist_name,
-    tn.release_date,
-    sp.year_end_score
+    tn.release_date
 LIMIT
 	100;
 
