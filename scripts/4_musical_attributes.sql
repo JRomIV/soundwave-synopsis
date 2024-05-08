@@ -20,7 +20,7 @@ LEFT JOIN
 
 -- Avg of all the audio features
 SELECT
-	AVG(popularity),
+	AVG(popularity) AS avg_popularity,
     AVG(explicit)*100 AS explicit_perc, 
 	AVG(duration_ms)/60000 AS avg_duration_mins,
     AVG(acousticness) AS avg_acousticness,
@@ -45,7 +45,7 @@ FROM
 )
 
 SELECT 
-    AVG(explicit)*100 AS explicit_perc, 
+    AVG(explicit)*100 AS explicit_percentage, 
 	AVG(duration_ms)/60000 AS duration_mins,
     AVG(acousticness) AS avg_acousticness,
     AVG(danceability) AS avg_danceability,
@@ -75,6 +75,7 @@ SELECT
     AVG(energy) AS avg_energy,
     AVG(instrumentalness) AS avg_instrumentalness,
     AVG(liveness) AS avg_liveness,
+    AVG(loudness) AS avg_loudness,
     AVG(loudness) AS avg_loudness,
     AVG(speechiness) AS avg_speechiness,
     AVG(valence) AS avg_valence,
