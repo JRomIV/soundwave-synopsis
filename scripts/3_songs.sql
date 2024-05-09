@@ -69,9 +69,9 @@ LIMIT
 
 -- Longest trending songs
 SELECT
-	MAX(sc.weeks_on_chart) AS weeks_on_chart,
-    s.song_name,
     tn.artist_name,
+    s.song_name,
+	MAX(sc.weeks_on_chart) AS weeks_on_chart,
     MIN(week) AS first_week,
     MAX(week) AS last_week
 FROM

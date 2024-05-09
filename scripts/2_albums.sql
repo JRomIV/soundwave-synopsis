@@ -63,9 +63,9 @@ LIMIT
 
 -- Longest trending albums
 SELECT
-	MAX(ac.weeks_on_chart) AS weeks_on_chart,
-    alb.name AS album_name,
     a.name AS artist_name,
+    alb.name AS album_name,
+	MAX(ac.weeks_on_chart) AS weeks_on_chart,
     MIN(ac.week) AS first_week,
     MAX(ac.week) AS last_week
 FROM
