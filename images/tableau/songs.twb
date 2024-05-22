@@ -1,0 +1,1616 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='song_pop_year_genre' inline='true' name='federated.028v6mv0sc15fs1azd91l0822g90' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='song_pop_year_genre' name='textscan.0wvkf6c0v4nres13zorbt1daxvgx'>
+            <connection class='textscan' directory='C:/Users/Joseph Romero IV/OneDrive/Documents/Personal/Projects/GitHub/soundwave_synopsis/data/exports/genres' filename='song_pop_year_genre.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0wvkf6c0v4nres13zorbt1daxvgx' name='song_pop_year_genre.csv' table='[song_pop_year_genre#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='song_rank' ordinal='0' />
+            <column datatype='string' name='song_name' ordinal='1' />
+            <column datatype='string' name='artist_name' ordinal='2' />
+            <column datatype='integer' name='explicit' ordinal='3' />
+            <column datatype='integer' name='popularity' ordinal='4' />
+            <column datatype='string' name='genre_1' ordinal='5' />
+            <column datatype='string' name='genre_2' ordinal='6' />
+            <column datatype='string' name='genre_3' ordinal='7' />
+            <column datatype='string' name='genre (group)' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0wvkf6c0v4nres13zorbt1daxvgx' name='song_pop_year_genre.csv' table='[song_pop_year_genre#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='song_rank' ordinal='0' />
+            <column datatype='string' name='song_name' ordinal='1' />
+            <column datatype='string' name='artist_name' ordinal='2' />
+            <column datatype='integer' name='explicit' ordinal='3' />
+            <column datatype='integer' name='popularity' ordinal='4' />
+            <column datatype='string' name='genre_1' ordinal='5' />
+            <column datatype='string' name='genre_2' ordinal='6' />
+            <column datatype='string' name='genre_3' ordinal='7' />
+            <column datatype='string' name='genre (group)' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>song_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[song_rank]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>song_rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>song_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[song_name]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>song_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>artist_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[artist_name]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>artist_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>explicit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[explicit]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>explicit</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>popularity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[popularity]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>popularity</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre_1]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>genre_1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre_2]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>genre_2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre_3]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>genre_3</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre (group)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre (group)]</local-name>
+            <parent-name>[song_pop_year_genre.csv]</parent-name>
+            <remote-alias>genre (group)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='song_pop_year_genre.csv' datatype='table' name='[__tableau_internal_object_id__].[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]' role='measure' type='quantitative' />
+      <column caption='Artist Name' datatype='string' name='[artist_name]' role='dimension' type='nominal' />
+      <column caption='Explicit' datatype='integer' name='[explicit]' role='measure' type='quantitative' />
+      <column caption='Genre (Group)' datatype='string' name='[genre (group)]' role='dimension' type='nominal' />
+      <column caption='Genre 1' datatype='string' name='[genre_1]' role='dimension' type='nominal' />
+      <column caption='Genre 2' datatype='string' name='[genre_2]' role='dimension' type='nominal' />
+      <column caption='Genre 3' datatype='string' name='[genre_3]' role='dimension' type='nominal' />
+      <column caption='Popularity' datatype='integer' name='[popularity]' role='measure' type='quantitative' />
+      <column caption='Song Name' datatype='string' name='[song_name]' role='dimension' type='nominal' />
+      <column caption='Song Rank' datatype='integer' name='[song_rank]' role='measure' type='quantitative' />
+      <column-instance column='[genre (group)]' derivation='None' name='[none:genre (group):nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/JOSEPH~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1ed3gq20unc3e919jnikq0hxwdmm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/22/2024 02:40:24 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>song_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[song_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>song_rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>song_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[song_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>song_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>artist_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[artist_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>artist_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>explicit</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[explicit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>explicit</remote-alias>
+              <ordinal>3</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>popularity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[popularity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>popularity</remote-alias>
+              <ordinal>4</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre_1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre_1</remote-alias>
+              <ordinal>5</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre_2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre_2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre_3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre_3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre_3</remote-alias>
+              <ordinal>7</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre (group)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre (group)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre (group)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>song_pop_year_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:genre (group):nk]' type='palette'>
+            <map to='#00aaff'>
+              <bucket>&quot;rock&quot;</bucket>
+            </map>
+            <map to='#7ed321'>
+              <bucket>&quot;hip hop&quot;</bucket>
+            </map>
+            <map to='#90728f'>
+              <bucket>&quot;latin&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;pop&quot;</bucket>
+            </map>
+            <map to='#e72bb5'>
+              <bucket>&quot;christian&quot;</bucket>
+            </map>
+            <map to='#e7e24b'>
+              <bucket>&quot;country&quot;</bucket>
+            </map>
+            <map to='#f5a623'>
+              <bucket>&quot;electronic&quot;</bucket>
+            </map>
+            <map to='#ff9888'>
+              <bucket>&quot;r&amp;b&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='song_pop_year_genre.csv' id='song_pop_year_genre.csv_934B0DFA99334AC7B12116211B6564A5'>
+            <properties context=''>
+              <relation connection='textscan.0wvkf6c0v4nres13zorbt1daxvgx' name='song_pop_year_genre.csv' table='[song_pop_year_genre#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='song_rank' ordinal='0' />
+                  <column datatype='string' name='song_name' ordinal='1' />
+                  <column datatype='string' name='artist_name' ordinal='2' />
+                  <column datatype='integer' name='explicit' ordinal='3' />
+                  <column datatype='integer' name='popularity' ordinal='4' />
+                  <column datatype='string' name='genre_1' ordinal='5' />
+                  <column datatype='string' name='genre_2' ordinal='6' />
+                  <column datatype='string' name='genre_3' ordinal='7' />
+                  <column datatype='string' name='genre (group)' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='song_pop_deca_genre' inline='true' name='federated.1hdhjx30x5e2m911j2usv11wyzkq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='song_pop_deca_genre' name='textscan.1nj5jks129blz4111v8if0k94b55'>
+            <connection class='textscan' directory='C:/Users/Joseph Romero IV/OneDrive/Documents/Personal/Projects/GitHub/soundwave_synopsis/data/exports/genres' filename='song_pop_deca_genre.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1nj5jks129blz4111v8if0k94b55' name='song_pop_deca_genre.csv' table='[song_pop_deca_genre#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='song_rank' ordinal='0' />
+            <column datatype='string' name='song_name' ordinal='1' />
+            <column datatype='string' name='artist_name' ordinal='2' />
+            <column datatype='date' name='release_date' ordinal='3' />
+            <column datatype='integer' name='total_year_end_score' ordinal='4' />
+            <column datatype='string' name='genre' ordinal='5' />
+            <column datatype='string' name='genre2' ordinal='6' />
+            <column datatype='string' name='genre (group)' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1nj5jks129blz4111v8if0k94b55' name='song_pop_deca_genre.csv' table='[song_pop_deca_genre#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='song_rank' ordinal='0' />
+            <column datatype='string' name='song_name' ordinal='1' />
+            <column datatype='string' name='artist_name' ordinal='2' />
+            <column datatype='date' name='release_date' ordinal='3' />
+            <column datatype='integer' name='total_year_end_score' ordinal='4' />
+            <column datatype='string' name='genre' ordinal='5' />
+            <column datatype='string' name='genre2' ordinal='6' />
+            <column datatype='string' name='genre (group)' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>song_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[song_rank]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>song_rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>song_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[song_name]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>song_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>artist_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[artist_name]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>artist_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[release_date]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>release_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_year_end_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_year_end_score]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>total_year_end_score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>genre</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre2]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>genre2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre (group)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre (group)]</local-name>
+            <parent-name>[song_pop_deca_genre.csv]</parent-name>
+            <remote-alias>genre (group)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='song_pop_deca_genre.csv' datatype='table' name='[__tableau_internal_object_id__].[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]' role='measure' type='quantitative' />
+      <column caption='Artist Name' datatype='string' name='[artist_name]' role='dimension' type='nominal' />
+      <column caption='Genre (Group)' datatype='string' name='[genre (group)]' role='dimension' type='nominal' />
+      <column caption='Genre2' datatype='string' name='[genre2]' role='dimension' type='nominal' />
+      <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+      <column caption='Popularity' datatype='integer' name='[popularity]' role='measure' type='quantitative' />
+      <column caption='Release Date' datatype='date' name='[release_date]' role='dimension' type='ordinal' />
+      <column caption='Song Name' datatype='string' name='[song_name]' role='dimension' type='nominal' />
+      <column caption='Song Rank' datatype='integer' name='[song_rank]' role='measure' type='quantitative' />
+      <column caption='Total Year End Score' datatype='integer' name='[total_year_end_score]' role='measure' type='quantitative' />
+      <column-instance column='[genre (group)]' derivation='None' name='[none:genre (group):nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/JOSEPH~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1odzrlq1f6kuy71h519uc13erza0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/22/2024 02:24:08 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>song_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[song_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>song_rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>song_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[song_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>song_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>artist_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[artist_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>artist_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>release_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[release_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>release_date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_year_end_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_year_end_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_year_end_score</remote-alias>
+              <ordinal>4</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre</remote-alias>
+              <ordinal>5</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre (group)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre (group)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre (group)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>song_pop_deca_genre.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:genre (group):nk]' type='palette'>
+            <map to='#00aaff'>
+              <bucket>&quot;rock&quot;</bucket>
+            </map>
+            <map to='#7ed321'>
+              <bucket>&quot;hip hop&quot;</bucket>
+            </map>
+            <map to='#90728f'>
+              <bucket>&quot;latin&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;soul&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;pop&quot;</bucket>
+            </map>
+            <map to='#e72bb5'>
+              <bucket>&quot;christian&quot;</bucket>
+            </map>
+            <map to='#e7e24b'>
+              <bucket>&quot;country&quot;</bucket>
+            </map>
+            <map to='#f5a623'>
+              <bucket>&quot;electronic&quot;</bucket>
+            </map>
+            <map to='#ff9888'>
+              <bucket>&quot;r&amp;b&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='song_pop_deca_genre.csv' id='song_pop_deca_genre.csv_7D74802F2027473793CDEA77850338FF'>
+            <properties context=''>
+              <relation connection='textscan.1nj5jks129blz4111v8if0k94b55' name='song_pop_deca_genre.csv' table='[song_pop_deca_genre#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='song_rank' ordinal='0' />
+                  <column datatype='string' name='song_name' ordinal='1' />
+                  <column datatype='string' name='artist_name' ordinal='2' />
+                  <column datatype='date' name='release_date' ordinal='3' />
+                  <column datatype='integer' name='total_year_end_score' ordinal='4' />
+                  <column datatype='string' name='genre' ordinal='5' />
+                  <column datatype='string' name='genre2' ordinal='6' />
+                  <column datatype='string' name='genre (group)' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='decade'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Harlow Solid Italic' fontsize='36'>Most Popular Songs of the Decade</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='song_pop_deca_genre' name='federated.1hdhjx30x5e2m911j2usv11wyzkq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hdhjx30x5e2m911j2usv11wyzkq'>
+            <column caption='Artist Name' datatype='string' name='[artist_name]' role='dimension' type='nominal' />
+            <column caption='Genre (Group)' datatype='string' name='[genre (group)]' role='dimension' type='nominal' />
+            <column-instance column='[artist_name]' derivation='None' name='[none:artist_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[genre (group)]' derivation='None' name='[none:genre (group):nk]' pivot='key' type='nominal' />
+            <column-instance column='[song_name]' derivation='None' name='[none:song_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[song_rank]' derivation='None' name='[none:song_rank:qk]' pivot='key' type='quantitative' />
+            <column caption='Song Name' datatype='string' name='[song_name]' role='dimension' type='nominal' />
+            <column caption='Song Rank' datatype='integer' name='[song_rank]' role='measure' type='quantitative' />
+            <column-instance column='[song_rank]' derivation='Sum' name='[sum:song_rank:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[total_year_end_score]' derivation='Sum' name='[sum:total_year_end_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Year End Score' datatype='integer' name='[total_year_end_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_rank:qk]' included-values='in-range-or-null'>
+            <min>1</min>
+            <max>30</max>
+          </filter>
+          <slices>
+            <column>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:song_rank:ok]' value='88' />
+            <format attr='width' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_name:nk]' value='148' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#000000' />
+            <format attr='background-color' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='Harlow Solid Italic' />
+            <format attr='font-size' value='12' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:song_rank:ok]' value='Gadugi' />
+            <format attr='font-size' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:song_rank:ok]' value='10' />
+            <format attr='font-family' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_name:nk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_name:nk]' value='10' />
+            <format attr='font-family' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:artist_name:nk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:artist_name:nk]' value='10' />
+            <format attr='font-family' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' value='12' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='border-color' value='#e6e6e6' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-family' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' value='Harlow Solid Italic' />
+            <format attr='font-size' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' value='15' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_rank:qk]' value='Song Rank'>
+              <formatted-text>
+                <run fontname='Harlow Solid Italic' fontsize='12'>Song Rank</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:genre (group):nk]' />
+              <text column='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:song_rank:ok] / ([federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_name:nk] / [federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:artist_name:nk]))</rows>
+        <cols>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:total_year_end_score:qk]</cols>
+      </table>
+      <simple-id uuid='{E656B3DE-D97C-4D7C-A626-FB89D9775E34}' />
+    </worksheet>
+    <worksheet name='year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Harlow Solid Italic' fontsize='36'>Most Popular Songs of 2018</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='song_pop_year_genre' name='federated.028v6mv0sc15fs1azd91l0822g90' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028v6mv0sc15fs1azd91l0822g90'>
+            <column caption='Artist Name' datatype='string' name='[artist_name]' role='dimension' type='nominal' />
+            <column caption='Genre (Group)' datatype='string' name='[genre (group)]' role='dimension' type='nominal' />
+            <column-instance column='[artist_name]' derivation='None' name='[none:artist_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[genre (group)]' derivation='None' name='[none:genre (group):nk]' pivot='key' type='nominal' />
+            <column-instance column='[song_name]' derivation='None' name='[none:song_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[song_rank]' derivation='None' name='[none:song_rank:qk]' pivot='key' type='quantitative' />
+            <column caption='Popularity' datatype='integer' name='[popularity]' role='measure' type='quantitative' />
+            <column caption='Song Name' datatype='string' name='[song_name]' role='dimension' type='nominal' />
+            <column caption='Song Rank' datatype='integer' name='[song_rank]' role='measure' type='quantitative' />
+            <column-instance column='[popularity]' derivation='Sum' name='[sum:popularity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[song_rank]' derivation='Sum' name='[sum:song_rank:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_rank:qk]' included-values='in-range-or-null'>
+            <min>1</min>
+            <max>30</max>
+          </filter>
+          <slices>
+            <column>[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='Gadugi' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:song_rank:ok]' value='88' />
+            <format attr='width' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_name:nk]' value='148' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#000000' />
+            <format attr='background-color' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='Harlow Solid Italic' />
+            <format attr='font-size' value='12' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:song_rank:ok]' value='Gadugi' />
+            <format attr='font-size' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:song_rank:ok]' value='10' />
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_name:nk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_name:nk]' value='10' />
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:artist_name:nk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:artist_name:nk]' value='10' />
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='Gadugi' />
+            <format attr='font-size' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='12' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='border-color' value='#e6e6e6' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-family' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='Harlow Solid Italic' />
+            <format attr='font-size' field='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' value='15' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_rank:qk]' value='Song Rank'>
+              <formatted-text>
+                <run fontname='Harlow Solid Italic' fontsize='12'>Song Rank</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.028v6mv0sc15fs1azd91l0822g90].[none:genre (group):nk]' />
+              <text column='[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.028v6mv0sc15fs1azd91l0822g90].[sum:song_rank:ok] / ([federated.028v6mv0sc15fs1azd91l0822g90].[none:song_name:nk] / [federated.028v6mv0sc15fs1azd91l0822g90].[none:artist_name:nk]))</rows>
+        <cols>[federated.028v6mv0sc15fs1azd91l0822g90].[sum:popularity:qk]</cols>
+      </table>
+      <simple-id uuid='{453F9561-8CC4-418D-B02E-868E54219372}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_rank:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.028v6mv0sc15fs1azd91l0822g90].[none:genre (group):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.028v6mv0sc15fs1azd91l0822g90].[none:artist_name:nk]</field>
+            <field>[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_name:nk]</field>
+            <field>[federated.028v6mv0sc15fs1azd91l0822g90].[none:song_rank:qk]</field>
+            <field>[federated.028v6mv0sc15fs1azd91l0822g90].[sum:song_rank:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5FA6E591-1A71-49A6-B946-04EF46DF2EF5}' />
+    </window>
+    <window class='worksheet' maximized='true' name='decade'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_rank:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:genre (group):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:artist_name:nk]</field>
+            <field>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:genre (group):nk]</field>
+            <field>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_name:nk]</field>
+            <field>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[none:song_rank:qk]</field>
+            <field>[federated.1hdhjx30x5e2m911j2usv11wyzkq].[sum:song_rank:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4B869E7D-6DEA-47D9-9215-BFB8501F39D9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='decade' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='year' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
