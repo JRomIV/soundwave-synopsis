@@ -102,7 +102,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 94,Bad to Me,The Karaoke Channel,NULL,1964,NULL,836,Unknown
 95,Tall Cool One,The Wailers,NULL,1964,NULL,835,Unknown
 95,Haunted House,"{'4iebo7ZPPFQ7cFVo5CKfgF': Jumpin' Gene Simmons""}""",-,1964,NULL,835,Unknown
-95,No Particular Place To Go,Chuck Berry,blues-rock,1964,1964,835,Rock
+95,No Particular Place To Go,Chuck Berry,blues-rock,1964,1964,835,Blues
 96,I'm Gonna Be Strong,Gene Pitney,NULL,1964,NULL,827,Unknown
 97,What's Easy for Two Is so Hard for One,Mary Wells,NULL,1964,NULL,824,Unknown
 98,Try It Baby,Marvin Gaye,classic soul,1964,NULL,821,Soul
@@ -153,7 +153,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 138,Whispering,Nino Tempo & April Stevens,NULL,1964,NULL,659,Unknown
 138,Farmer John - Live,The Premiers,NULL,1964,NULL,659,Unknown
 139,Tell Me Why,Bobby Vinton,adult standards,1964,NULL,656,Oldies
-139,You Never Can Tell,Chuck Berry,blues-rock,1964,1964,656,Rock
+139,You Never Can Tell,Chuck Berry,blues-rock,1964,1964,656,Blues
 140,Don’t Worry Baby,Royal Philharmonic Orchestra,orchestra,1964,2018,654,Classical
 141,I Don't Want To See You Again,Peter And Gordon,NULL,1964,NULL,649,Unknown
 141,Once Upon a Time,Marvin Gaye and Mary Wells,-,1964,2019,649,Unknown
@@ -418,7 +418,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 343,Tonight You're Gonna Fall In Love With Me,The Shirelles,NULL,1964,NULL,194,Unknown
 343,I'll Always Love You,Brenda Holloway,NULL,1964,NULL,194,Unknown
 344,Don't Forget I Still Love You,Bobbi Martin,NULL,1964,NULL,193,Unknown
-345,Little Marie,Chuck Berry,blues-rock,1964,1964,191,Rock
+345,Little Marie,Chuck Berry,blues-rock,1964,1964,191,Blues
 346,True Love Goes on and On,Burl Ives,NULL,1964,NULL,190,Unknown
 347,Congratulations,Ricky Nelson,NULL,1964,NULL,189,Unknown
 347,What Good Am I Without You,Marvin Gaye,NULL,1964,NULL,189,Unknown
@@ -492,7 +492,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 389,Sha-La-La,The Shirelles,NULL,1964,NULL,103,Unknown
 389,If I'm a Fool for Loving You,Bobby Wood,NULL,1964,NULL,103,Unknown
 390,Please,Frank Ifield,NULL,1964,NULL,101,Unknown
-391,Promised Land,Chuck Berry,blues-rock,1964,1964,99,Rock
+391,Promised Land,Chuck Berry,blues-rock,1964,1964,99,Blues
 392,Wonderful Summer,Robin Ward,NULL,1964,NULL,97,Unknown
 393,Baby Baby All the Time,The Superbs,NULL,1964,NULL,96,Unknown
 393,Come Dance With Me,Jay & The Americans,adult standards,1964,NULL,96,Oldies
@@ -1060,7 +1060,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 319,A Woman Can Change A Man,Joe Tex,NULL,1965,NULL,262,Unknown
 320,What Now,Gene Chandler,NULL,1965,NULL,259,Unknown
 320,I Don't Want to Go on Without You,The Drifters,NULL,1965,NULL,259,Unknown
-321,Promised Land,Chuck Berry,blues-rock,1965,1964,258,Rock
+321,Promised Land,Chuck Berry,blues-rock,1965,1964,258,Blues
 322,Here I Am,Dionne Warwick,adult standards,1965,NULL,257,Oldies
 322,You'll Never Walk Alone,Gerry & The Pacemakers,NULL,1965,NULL,257,Unknown
 323,Are You A Boy Or Are You A Girl?,The Barbarians,NULL,1965,NULL,256,Unknown
@@ -2416,7 +2416,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 288,Somebody Help Me,The Spencer Davis Group,NULL,1967,NULL,306,Unknown
 288,A Place In The Sun,Stevie Wonder,motown,1967,1966,306,Soul
 289,Why Do Fools Fall In Love,The Happenings,NULL,1967,NULL,303,Unknown
-290,Bluebird,Buffalo Springfield,blues-rock,1967,NULL,301,Rock
+290,Bluebird,Buffalo Springfield,blues-rock,1967,NULL,301,Blues
 290,Gallant Men,Everett McKinley Dirksen,NULL,1967,NULL,301,Unknown
 290,Homburg,White Knight Instrumental,NULL,1967,NULL,301,Unknown
 291,Love Me Tender,Percy Sledge,NULL,1967,NULL,300,Unknown
@@ -2721,7 +2721,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 471,Let It Be Me,The Sweet Inspirations,brill building pop,1967,NULL,15,Pop
 471,Sam's Place - Mono Single Version,Buck Owens & The Buckaroos,NULL,1967,NULL,15,Unknown
 472,Different Strokes,Syl Johnson,NULL,1967,NULL,14,Unknown
-472,Not So Sweet Martha Lorraine,Country Joe & The Fish,blues-rock,1967,NULL,14,Rock
+472,Not So Sweet Martha Lorraine,Country Joe & The Fish,blues-rock,1967,NULL,14,Blues
 472,Somebody's Sleeping In My Bed,Johnnie Taylor,NULL,1967,NULL,14,Unknown
 472,Everybody Loves a Winner,William Bell,NULL,1967,NULL,14,Unknown
 473,Beat The Clock,The McCoys,brill building pop,1967,1995,13,Pop
@@ -2875,7 +2875,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 89,Who's Making Love,Johnnie Taylor,funk,1968,NULL,927,Funk
 90,I Say a Little Prayer,Aretha Franklin,classic soul,1968,1968,925,Soul
 91,Think,Aretha Franklin,classic soul,1968,1968,917,Soul
-91,Piece of My Heart,Big Brother & The Holding Company,blues-rock,1968,1968,917,Rock
+91,Piece of My Heart,Big Brother & The Holding Company,blues-rock,1968,1968,917,Blues
 92,"Hey, Western Union Man",Jerry Butler,beach music,1968,1992,915,Pop
 93,"Abraham, Martin And John",Dion,NULL,1968,NULL,909,Unknown
 94,Bang-Shang-A-Lang,The Archies,NULL,1968,NULL,907,Unknown
@@ -3328,7 +3328,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 430,"Soul Sister, Brown Sugar",Sam & Dave,brill building pop,1968,NULL,53,Pop
 430,Malayisha (Live),Miriam Makeba,NULL,1968,NULL,53,Unknown
 431,Up On The Roof,"{'0KqE3rHdX1G6MkvG1lSlbK': Cryan' Shames""}""",NULL,1968,NULL,52,Unknown
-431,On the Way Home,Buffalo Springfield,blues-rock,1968,NULL,52,Rock
+431,On the Way Home,Buffalo Springfield,blues-rock,1968,NULL,52,Blues
 432,"O-O, I Love You",The Dells,chicago soul,1968,1968,50,Soul
 433,There Was A Time,Gene Chandler,NULL,1968,NULL,49,Unknown
 434,You Got Soul,Johnny Nash,NULL,1968,NULL,48,Unknown
@@ -3422,7 +3422,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 472,Condition Red,The Goodees,NULL,1968,NULL,7,Unknown
 472,Does Anybody Know I'm Here?,The Dells,NULL,1968,NULL,7,Unknown
 472,(You Can't Let The Boy Overpower) The Man In You,Chuck Jackson,NULL,1968,NULL,7,Unknown
-472,Expecting to Fly,Buffalo Springfield,blues-rock,1968,NULL,7,Rock
+472,Expecting to Fly,Buffalo Springfield,blues-rock,1968,NULL,7,Blues
 473,Sally Was a Good Old Girl,Trini Lopez,NULL,1968,NULL,6,Unknown
 473,They Don't Make Love Like They Used To,Eddy Arnold,country gospel,1968,1969,6,Christian
 473,Do Your Own Thing,Brook Benton,NULL,1968,NULL,6,Unknown
@@ -3962,7 +3962,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 417,I Want to Love You Baby,Jo Jo Benson,NULL,1969,NULL,68,Unknown
 418,Long Line Rider,Bobby Darin,NULL,1969,NULL,67,Unknown
 418,Baby Take Me in Your Arms,Jefferson,NULL,1969,NULL,67,Unknown
-419,Kick Out the Jams,MC5,blues-rock,1969,NULL,66,Rock
+419,Kick Out the Jams,MC5,blues-rock,1969,NULL,66,Blues
 419,Love Is Just A Four-Letter Word,Joan Baez,NULL,1969,NULL,66,Unknown
 420,Put Your Head On My Shoulder,The Lettermen,NULL,1969,NULL,65,Unknown
 421,Am I The Same Girl,Barbara Acklin,NULL,1969,NULL,63,Unknown
@@ -4093,7 +4093,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 471,Big In Vegas,Buck Owens & The Buckaroos,NULL,1969,NULL,1,Unknown
 471,St. Louis,The Easybeats,NULL,1969,NULL,1,Unknown
 471,The Thrill Is Gone,Tracy Chapman,blues,1969,1997,1,Blues
-1,Get Ready,Rare Earth,blues-rock,1970,1969,1748,Rock
+1,Get Ready,Rare Earth,blues-rock,1970,1969,1748,Blues
 2,(They Long to Be) Close to You,Dionne Warwick,mpb,1970,2016,1740,Latin
 3,Band of Gold,Freda Payne,NULL,1970,NULL,1733,Unknown
 4,Hitchin' a Ride,Vanity Fare,NULL,1970,NULL,1729,Unknown
@@ -4143,7 +4143,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 47,The Rapper,The Jaggerz,NULL,1970,NULL,1201,Unknown
 48,"Tighter, Tighter",Alive and Kicking,NULL,1970,NULL,1192,Unknown
 49,Venus,Shocking Blue,folk rock,1970,2011,1184,Folk
-50,(I Know) I'm Losing You,Rare Earth,blues-rock,1970,1995,1183,Rock
+50,(I Know) I'm Losing You,Rare Earth,blues-rock,1970,1995,1183,Blues
 51,Solitary Man,Neil Diamond,NULL,1970,NULL,1181,Unknown
 52,Express Yourself,Charles Wright & The Watts 103rd Street Rhythm Band,classic soul,1970,NULL,1173,Soul
 53,Turn Back The Hands Of Time,Tyrone Davis,chicago soul,1970,NULL,1165,Soul
@@ -4268,7 +4268,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 163,And the Grass Won't Pay No Mind,Mark Lindsay,NULL,1970,NULL,581,Unknown
 163,"God, Love and Rock and Roll",Van Winkle Teegarden,NULL,1970,NULL,581,Unknown
 164,I Can't Leave Your Love Alone,Clarence Carter,classic soul,1970,NULL,580,Soul
-165,Black Magic Woman,Santana,blues-rock,1970,NULL,578,Rock
+165,Black Magic Woman,Santana,blues-rock,1970,NULL,578,Blues
 166,Our House,"Crosby, Stills, Nash & Young",album rock,1970,1970,574,Rock
 167,"Wonderful World, Beautiful People",Jimmy Cliff,NULL,1970,NULL,570,Unknown
 167,Na Na Hey Hey Kiss Him Goodbye,Steam,NULL,1970,NULL,570,Unknown
@@ -4326,7 +4326,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 207,Gotta Get Back to You,Tommy James & The Shondells,NULL,1970,NULL,423,Unknown
 208,Oh Well (Pt. 1) - Mono,Fleetwood Mac,NULL,1970,NULL,420,Unknown
 209,Fresh Air,Quicksilver Messenger Service,NULL,1970,NULL,419,Unknown
-210,Soul Shake,Delaney & Bonnie,blues-rock,1970,1970,417,Rock
+210,Soul Shake,Delaney & Bonnie,blues-rock,1970,1970,417,Blues
 211,One Man Band,Three Dog Night,NULL,1970,NULL,416,Unknown
 212,Eli's Coming,Three Dog Night,NULL,1970,NULL,414,Unknown
 213,She,Tommy James & The Shondells,NULL,1970,NULL,413,Unknown
@@ -4470,7 +4470,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 315,Uncle John's Band - 2001 Remaster,Grateful Dead,classic rock,1970,2003,177,Rock
 316,You Better Think Twice,Poco,NULL,1970,NULL,174,Unknown
 317,Heaven Knows,The Grass Roots,NULL,1970,NULL,173,Unknown
-318,Love the One You're With,Stephen Stills,blues-rock,1970,NULL,171,Rock
+318,Love the One You're With,Stephen Stills,blues-rock,1970,NULL,171,Blues
 319,Going To The Country,Steve Miller Band,NULL,1970,NULL,166,Unknown
 320,I Love You,Otis Leavill,NULL,1970,NULL,165,Unknown
 321,The Green Grass Starts to Grow,Dionne Warwick,NULL,1970,NULL,164,Unknown
@@ -4511,12 +4511,12 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 348,Friends of a Feather,Jennifer Smith,NULL,1970,NULL,111,Unknown
 349,Smile a Little Smile for Me,The Flying Machine,-,1970,1969,110,Unknown
 350,But for Love,Jerry Naylor,NULL,1970,NULL,109,Unknown
-350,Born To Wander,Rare Earth,blues-rock,1970,1995,109,Rock
+350,Born To Wander,Rare Earth,blues-rock,1970,1995,109,Blues
 351,"I Got a Thing, You Got a Thing, Everybody's Got a Thing",Funkadelic,NULL,1970,NULL,107,Unknown
 351,Black Night,Deep Purple,album rock,1970,NULL,107,Rock
 352,The Witch,The Rattles,NULL,1970,NULL,105,Unknown
 353,Silly Silly Fool,Dusty Springfield,NULL,1970,NULL,102,Unknown
-354,Free The People,Delaney & Bonnie,blues-rock,1970,1970,101,Rock
+354,Free The People,Delaney & Bonnie,blues-rock,1970,1970,101,Blues
 354,Amazing Grace,Judy Collins,NULL,1970,NULL,101,Unknown
 355,One Day Of Your Life - Single Version,Andy Williams,NULL,1970,NULL,98,Unknown
 355,Is It Because I'm Black,Syl Johnson,NULL,1970,NULL,98,Unknown
@@ -4583,7 +4583,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 392,Bridget the Midget (The Queen of the Blues),Ray Stevens,bubblegum pop,1970,2014,41,Pop
 393,A Whiter Shade Of Pale,R.B. Greaves,NULL,1970,NULL,40,Unknown
 394,Come into My Life,Jimmy Cliff,NULL,1970,NULL,39,Unknown
-394,Comin' Home,Delaney & Bonnie,blues-rock,1970,NULL,39,Rock
+394,Comin' Home,Delaney & Bonnie,blues-rock,1970,NULL,39,Blues
 395,Country Preacher,Cannonball Adderley,bebop,1970,NULL,37,Jazz
 395,Primrose Lane,O.C. Smith,NULL,1970,NULL,37,Unknown
 396,Lovin' You Baby,White Plains,bubblegum pop,1970,NULL,36,Pop
@@ -4630,7 +4630,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 414,A World Without Music,Archie Bell & The Drells,NULL,1970,NULL,13,Unknown
 415,Thank You Girl,Street People,NULL,1970,NULL,12,Unknown
 415,Want You To Know,Rotary Connection,classic soul,1970,2006,12,Soul
-416,I Hear You Knocking,Dave Edmunds,blues-rock,1970,2005,11,Rock
+416,I Hear You Knocking,Dave Edmunds,blues-rock,1970,2005,11,Blues
 416,I Want To (Do Everything for You),The Raelettes,NULL,1970,NULL,11,Unknown
 416,Alone Again Or,Love,NULL,1970,NULL,11,Unknown
 417,Fire And Rain,Johnny Rivers,brill building pop,1970,1971,10,Pop
@@ -4687,7 +4687,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 18,One Bad Apple,The Osmonds,NULL,1971,NULL,1394,Unknown
 19,Ain't No Sunshine,Bill Withers,classic soul,1971,1971,1392,Soul
 20,"Gypsys, Tramps & Thieves",Cher,dance pop,1971,1971,1389,Pop
-20,Me and Bobby McGee,Janis Joplin,blues-rock,1971,1971,1389,Rock
+20,Me and Bobby McGee,Janis Joplin,blues-rock,1971,1971,1389,Blues
 21,Temptation Eyes,The Grass Roots,NULL,1971,NULL,1358,Unknown
 22,She's A Lady,Tom Jones,adult standards,1971,1971,1347,Oldies
 23,Knock Three Times,Tony Orlando & Dawn,NULL,1971,NULL,1346,Unknown
@@ -4721,14 +4721,14 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 50,Doesn't Somebody Want To Be Wanted,The Partridge Family,bubblegum pop,1971,NULL,1109,Pop
 51,Proud Mary,Ike & Tina Turner,NULL,1971,NULL,1106,Unknown
 52,"Theme From Shaft""""",Isaac Hayes,NULL,1971,NULL,1102,Unknown
-53,One Toke Over the Line,Brewer & Shipley,country rock,1971,NULL,1095,country
+53,One Toke Over the Line,Brewer & Shipley,country rock,1971,NULL,1095,Country
 54,If,Bread,adult standards,1971,1973,1091,Oldies
 55,Groove Me,King Floyd,classic soul,1971,1994,1087,Soul
 56,Mercy Mercy Me (The Ecology),Marvin Gaye,NULL,1971,NULL,1082,Unknown
 57,She’s Not Just Another Woman,The 8th Day,NULL,1971,NULL,1073,Unknown
 57,Never Ending Song of Love (Karaoke Version) - Originally Performed By Delaney & Bonnie & Friends,Albert 2 Stone,NULL,1971,NULL,1073,Unknown
 58,If Not for You,John Farnham,NULL,1971,NULL,1064,Unknown
-59,I Just Want To Celebrate,Rare Earth,blues-rock,1971,1971,1063,Rock
+59,I Just Want To Celebrate,Rare Earth,blues-rock,1971,1971,1063,Blues
 60,Bring the Boys Home,Freda Payne,NULL,1971,NULL,1062,Unknown
 61,Woodstock,"{'7aLNBjOlzOCyuFmytbbeYM': Matthews' Southern Comfort""}""",british folk,1971,2016,1057,Folk
 62,Chirpy Chirpy Cheep Cheep,Mac & Katie Kissoon,NULL,1971,NULL,1052,Unknown
@@ -4745,7 +4745,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 71,Stick Up,Honey Cone,NULL,1971,NULL,1017,Unknown
 72,Trapped By a Thing Called Love,Denise LaSalle,classic soul,1971,2009,1016,Soul
 73,Here Comes That Rainy Day Feeling Again,The Fortunes,NULL,1971,NULL,1009,Unknown
-74,I Hear You Knocking,Dave Edmunds,blues-rock,1971,2005,1003,Rock
+74,I Hear You Knocking,Dave Edmunds,blues-rock,1971,2005,1003,Blues
 75,"When You're Hot, You're Hot",Jerry Reed,NULL,1971,NULL,1001,Unknown
 76,Won't Get Fooled Again,The Who,-,1971,2011,999,Unknown
 77,Desiderata,Les Crane,-,1971,2006,993,Unknown
@@ -4776,7 +4776,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 99,No Love At All,B.J. Thomas,adult standards,1971,NULL,877,Oldies
 100,I Don't Blame You At All,Smokey Robinson & The Miracles,brill building pop,1971,1971,874,Pop
 101,Me and My Arrow,Harry Nilsson,art rock,1971,1970,871,Rock
-102,Loving Her Was Easier (Than Anything I'll Ever Do Again),Kris Kristofferson,country rock,1971,NULL,856,country
+102,Loving Her Was Easier (Than Anything I'll Ever Do Again),Kris Kristofferson,country rock,1971,NULL,856,Country
 103,I Don't Want To Do Wrong,Gladys Knight & The Pips,NULL,1971,NULL,855,Unknown
 104,I Won't Mention It Again,Ray Price,NULL,1971,NULL,851,Unknown
 105,Never My Love,The 5th Dimension,NULL,1971,NULL,844,Unknown
@@ -4784,7 +4784,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 107,One Fine Morning,lighthouse,classic canadian rock,1971,1971,841,Rock
 108,Burning Bridges,Mike Curb Congregation,NULL,1971,NULL,834,Unknown
 108,Love the One You're With,The Isley Brothers,classic soul,1971,1971,834,Soul
-109,Everybody's Everything,Santana,blues-rock,1971,2007,832,Rock
+109,Everybody's Everything,Santana,blues-rock,1971,2007,832,Blues
 110,Two Divided By Love,The Grass Roots,NULL,1971,NULL,818,Unknown
 111,Get It On,Chase,NULL,1971,NULL,814,Unknown
 112,All I Ever Need Is You,Sonny & Cher,adult standards,1971,NULL,807,Oldies
@@ -4792,7 +4792,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 113,You've Got a Friend,Roberta Flack,-,1971,NULL,803,Unknown
 114,K-Jee,The Nite-Liters,NULL,1971,NULL,795,Unknown
 115,Stagger Lee,Tommy Roe,brill building pop,1971,2000,790,Pop
-116,Oye Como Va,Santana,blues-rock,1971,1970,787,Rock
+116,Oye Como Va,Santana,blues-rock,1971,1970,787,Blues
 117,Got To Be There,Michael Jackson,pop,1971,1972,778,Pop
 118,Don't Let the Green Grass Fool You,Wilson Pickett,brill building pop,1971,NULL,777,Pop
 119,What Is Life,George Harrison,album rock,1971,1970,776,Rock
@@ -4812,9 +4812,9 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 132,I Bet You Get the One (Who Loves You),The Detroit Emeralds,classic soul,1971,NULL,743,Soul
 132,"What The World Needs Now Is Love/Abraham, Martin And John",Tom Clay,NULL,1971,NULL,743,Unknown
 133,Power To The People,The Plastic Ono Band,album rock,1971,2010,742,Rock
-134,Only You Know And I Know,Delaney & Bonnie,blues-rock,1971,NULL,739,Rock
+134,Only You Know And I Know,Delaney & Bonnie,blues-rock,1971,NULL,739,Blues
 135,D.O.A.,Bloodrock,-,1971,2009,736,Unknown
-136,Love the One You're With,Stephen Stills,blues-rock,1971,NULL,728,Rock
+136,Love the One You're With,Stephen Stills,blues-rock,1971,NULL,728,Blues
 137,(For God's Sake) Give More Power To The People,The Chi-Lites,NULL,1971,NULL,721,Unknown
 138,The Love We Had (Stays on My Mind),The Dells,NULL,1971,NULL,718,Unknown
 139,Cried Like a Baby,Bobby Sherman,NULL,1971,NULL,716,Unknown
@@ -4826,7 +4826,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 144,Your Time To Cry,Joe Simon,NULL,1971,NULL,699,Unknown
 145,Don't Change On Me (Karaoke Version) - Originally Performed By Ray Charles,Albert 2 Stone,NULL,1971,NULL,689,Unknown
 146,Birds Of A Feather,Paul Revere & The Raiders,NULL,1971,NULL,686,Unknown
-147,Born To Wander,Rare Earth,blues-rock,1971,1995,685,Rock
+147,Born To Wander,Rare Earth,blues-rock,1971,1995,685,Blues
 148,Maggie,Redbone,NULL,1971,NULL,684,Unknown
 149,Where Did Our Love Go,Donnie Elbert,NULL,1971,NULL,683,Unknown
 150,Scorpio,Dennis Coffey & The Detroit Guitar Band,-,1971,1971,681,Unknown
@@ -4845,7 +4845,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 160,Summer Sand,Tony Orlando & Dawn,NULL,1971,NULL,647,Unknown
 161,All Day Music,War,classic soul,1971,1972,646,Soul
 162,Immigrant Song - Remaster,Led Zeppelin,album rock,1971,NULL,644,Rock
-162,Black Magic Woman,Santana,blues-rock,1971,NULL,644,Rock
+162,Black Magic Woman,Santana,blues-rock,1971,NULL,644,Blues
 163,You're All I Need to Get By,Aretha Franklin,NULL,1971,NULL,643,Unknown
 164,I'd Love to Change the World,Ten Years After,NULL,1971,NULL,642,Unknown
 165,Jody's Got Your Girl And Gone,Johnnie Taylor,funk,1971,1977,637,Funk
@@ -4893,11 +4893,11 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 203,Stop The War Now,Edwin Starr,classic soul,1971,1971,468,Soul
 204,Dream Baby (How Long Must I Dream),Glen Campbell,NULL,1971,NULL,466,Unknown
 205,Ask Me No Questions,Noël Akchoté,NULL,1971,NULL,459,Unknown
-206,Marianne,Stephen Stills,blues-rock,1971,NULL,458,Rock
+206,Marianne,Stephen Stills,blues-rock,1971,NULL,458,Blues
 207,Them Changes,Buddy Miles,funk,1971,1970,457,Funk
 208,God Bless Whoever Sent You,The Originals,NULL,1971,NULL,456,Unknown
 209,One Man Band,Three Dog Night,NULL,1971,NULL,454,Unknown
-210,Change Partners,Stephen Stills,blues-rock,1971,NULL,452,Rock
+210,Change Partners,Stephen Stills,blues-rock,1971,NULL,452,Blues
 211,When I'm Dead and Gone,McGuinness Flint,NULL,1971,NULL,451,Unknown
 212,Apeman - 2014 Remastered Version,The Kinks,NULL,1971,NULL,447,Unknown
 213,Do I Love You,Paul Anka,NULL,1971,NULL,441,Unknown
@@ -4918,7 +4918,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 226,Behind Blue Eyes,The Who,album rock,1971,1971,410,Rock
 227,(I Know) I'm Losing You,Rod Stewart,adult standards,1971,1971,401,Oldies
 228,Follow Me,Mary Travers,NULL,1971,NULL,400,Unknown
-228,Fresh As A Daisy,Emitt Rhodes,country rock,1971,2009,400,country
+228,Fresh As A Daisy,Emitt Rhodes,country rock,1971,2009,400,Country
 229,I'm Comin' Home,Tommy James,bubblegum pop,1971,1971,399,Pop
 230,Walk Away,James Gang,album rock,1971,2000,395,Rock
 231,When There's No You,Engelbert Humperdinck,adult standards,1971,1971,383,Oldies
@@ -4929,7 +4929,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 233,"Another Time, Another Place",Engelbert Humperdinck,adult standards,1971,1971,380,Oldies
 234,Spinning Around (I Must Be Falling In Love),The Main Ingredient,NULL,1971,NULL,378,Unknown
 234,Crazy Love,Helen Reddy,NULL,1971,NULL,378,Unknown
-235,Sit Yourself Down,Stephen Stills,blues-rock,1971,NULL,373,Rock
+235,Sit Yourself Down,Stephen Stills,blues-rock,1971,NULL,373,Blues
 236,Mammy Blue,Pop Tops,NULL,1971,NULL,365,Unknown
 237,Tongue in Cheek,Sugarloaf,classic rock,1971,NULL,362,Rock
 238,Hallelujah,Sweathog,NULL,1971,NULL,359,Unknown
@@ -4942,7 +4942,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 245,I'm A Believer,Neil Diamond,adult standards,1971,2017,344,Oldies
 246,I Think Of You,Perry Como,NULL,1971,NULL,341,Unknown
 247,Hang On To Your Life,The Guess Who,album rock,1971,NULL,339,Rock
-248,Cry Baby,Janis Joplin,blues-rock,1971,1971,335,Rock
+248,Cry Baby,Janis Joplin,blues-rock,1971,1971,335,Blues
 249,Ride With Me,Steppenwolf,NULL,1971,NULL,334,Unknown
 250,Annabella,"Hamilton, Joe Frank & Reynolds",bubblegum pop,1971,1971,333,Pop
 251,"Someone Who Cares - From Fools"" Soundtrack""",Kenny Rogers & The First Edition,NULL,1971,NULL,326,Unknown
@@ -4976,7 +4976,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 272,Bless You,Martha Reeves & The Vandellas,brill building pop,1971,NULL,272,Pop
 273,It's Only Love,Elvis Presley,rock-and-roll,1971,1972,268,Rock
 273,Spill the Wine,The Isley Brothers,classic soul,1971,1971,268,Soul
-274,Hey Big Brother,Rare Earth,blues-rock,1971,1995,266,Rock
+274,Hey Big Brother,Rare Earth,blues-rock,1971,1995,266,Blues
 275,Silver Moon,Michael Nesmith,NULL,1971,NULL,265,Unknown
 276,I'd Like To Teach The World To Sing (In Perfect Harmony),The New Seekers,bubblegum pop,1971,2019,263,Pop
 276,Satisfaction,Smokey Robinson & The Miracles,NULL,1971,NULL,263,Unknown
@@ -5140,7 +5140,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 384,How Did We Lose It Baby,Jerry Butler,beach music,1971,1992,49,Pop
 385,Are You Old Enough,Mark Lindsay,NULL,1971,NULL,46,Unknown
 385,I Need Someone (To Love Me),Z.Z. Hill,NULL,1971,NULL,46,Unknown
-385,Get It While You Can,Janis Joplin,blues-rock,1971,1971,46,Rock
+385,Get It While You Can,Janis Joplin,blues-rock,1971,1971,46,Blues
 386,Top Forty,Sha Na Na,NULL,1971,NULL,45,Unknown
 387,Get Up And Get Down,The Dramatics,NULL,1971,NULL,44,Unknown
 388,Love Makes The World Go Round,Kiki Dee,NULL,1971,NULL,43,Unknown
@@ -5221,7 +5221,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 420,Summer Side of Life,Gordon Lightfoot,album rock,1971,NULL,7,Rock
 420,Tell Me Why,"{'7aLNBjOlzOCyuFmytbbeYM': Matthews' Southern Comfort""}""",british folk,1971,2016,7,Folk
 421,There's So Much Love All Around Me,The Three Degrees,NULL,1971,NULL,6,Unknown
-421,Keep Playin' That Rock 'n' Roll,"{'4uOdVRRuTWjJVkcN0LXxwL': Edgar Winter's White Trash""}""",blues-rock,1971,NULL,6,Rock
+421,Keep Playin' That Rock 'n' Roll,"{'4uOdVRRuTWjJVkcN0LXxwL': Edgar Winter's White Trash""}""",blues-rock,1971,NULL,6,Blues
 421,Music Is Love,David Crosby,cosmic american,1971,1971,6,Country
 421,Lucky Me,The Moments,NULL,1971,NULL,6,Unknown
 421,Co-Co,Sweet,NULL,1971,NULL,6,Unknown
@@ -5292,7 +5292,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 56,Mother and Child Reunion,Paul Simon,classic rock,1972,1972,1145,Rock
 57,Look What You Done for Me,Al Green,classic soul,1972,1972,1136,Soul
 58,Hurting Each Other,Carpenters,NULL,1972,NULL,1132,Unknown
-59,Hot Rod Lincoln,Commander Cody and His Lost Planet Airmen,country rock,1972,1971,1122,country
+59,Hot Rod Lincoln,Commander Cody and His Lost Planet Airmen,country rock,1972,1971,1122,Country
 60,Coconut,Harry Nilsson,art rock,1972,NULL,1121,Rock
 60,Day Dreaming,Aretha Franklin,classic soul,1972,1972,1121,Soul
 61,I'm Still in Love with You,Al Green,classic soul,1972,1972,1120,Soul
@@ -5336,7 +5336,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 95,It Never Rains in Southern California,Albert Hammond,bubblegum pop,1972,NULL,930,Pop
 95,Tumbling Dice,The Rolling Stones,NULL,1972,NULL,930,Unknown
 96,You Ought to Be with Me,Al Green,classic soul,1972,NULL,929,Soul
-97,Tight Rope,Leon Russell,blues-rock,1972,NULL,922,Rock
+97,Tight Rope,Leon Russell,blues-rock,1972,NULL,922,Blues
 98,Operator (That's Not the Way It Feels),Jim Croce,album rock,1972,1972,921,Rock
 99,Clean up Woman,Betty Wright,classic soul,1972,NULL,919,Soul
 100,I'm Stone In Love With You,The Stylistics,NULL,1972,NULL,914,Unknown
@@ -5413,7 +5413,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 159,Softly Whispering I Love You,Congregation,NULL,1972,NULL,653,Unknown
 160,Spaceman,Harry Nilsson,art rock,1972,1972,648,Rock
 161,Isn't Life Strange,The Moody Blues,NULL,1972,NULL,644,Unknown
-162,Geronimo's Cadillac,Michael Martin Murphey,country rock,1972,1972,642,country
+162,Geronimo's Cadillac,Michael Martin Murphey,country rock,1972,1972,642,Country
 163,All the Young Dudes,Mott The Hoople,album rock,1972,NULL,640,Rock
 164,Feeling Alright,Various Artists,NULL,1972,NULL,639,Unknown
 165,How Can I Be Sure,David Cassidy,bubblegum pop,1972,NULL,634,Pop
@@ -5436,7 +5436,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 179,Together Let's Find Love - Digitally Remastered 1997,The 5th Dimension,NULL,1972,NULL,568,Unknown
 180,That's How Love Goes,Jermaine Jackson,NULL,1972,NULL,567,Unknown
 181,Walk On Water,Neil Diamond,NULL,1972,NULL,566,Unknown
-182,No One to Depend On,Santana,blues-rock,1972,1971,564,Rock
+182,No One to Depend On,Santana,blues-rock,1972,1971,564,Blues
 183,Now Run and Tell That,Denise LaSalle,classic soul,1972,2009,561,Soul
 184,Give Ireland Back To The Irish,Wings,NULL,1972,NULL,559,Unknown
 185,Could It Be Forever,"David Cassidy', '1kMfh3vEY0iWX9SDVjvdsd': Hear'Say""}""",NULL,1972,NULL,557,Unknown
@@ -5482,7 +5482,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 221,Have You Seen Her,The Chi-Lites,NULL,1972,NULL,442,Unknown
 222,Superstition,Stevie Wonder,motown,1972,1972,441,Soul
 223,To Get To You,Jerry Wallace,NULL,1972,NULL,439,Unknown
-224,Hey Big Brother,Rare Earth,blues-rock,1972,1995,437,Rock
+224,Hey Big Brother,Rare Earth,blues-rock,1972,1995,437,Blues
 225,Love Me Love Me Love,Frank Mills,NULL,1972,NULL,434,Unknown
 225,Rock Me on the Water,Jackson Browne,NULL,1972,NULL,434,Unknown
 226,Lies,J.J. Cale,NULL,1972,NULL,432,Unknown
@@ -5560,7 +5560,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 286,Victim of a Foolish Heart (Single Version),Bettye Swann,NULL,1972,NULL,291,Unknown
 287,Country Wine,The Raiders,NULL,1972,NULL,289,Unknown
 288,Why Can't We Live Together,Timmy Thomas,classic soul,1972,NULL,287,Soul
-289,It Doesn't Matter,Stephen Stills,blues-rock,1972,NULL,285,Rock
+289,It Doesn't Matter,Stephen Stills,blues-rock,1972,NULL,285,Blues
 289,Funk Factory,Wilson Pickett,NULL,1972,NULL,285,Unknown
 290,Way Back Home,Jr. Walker & The All Stars,NULL,1972,NULL,277,Unknown
 291,Separate Ways,Elvis Presley,NULL,1972,NULL,275,Unknown
@@ -5574,7 +5574,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 297,Alabama Wild Man,Jerry Reed,NULL,1972,NULL,261,Unknown
 298,Francene,ZZ Top,album rock,1972,2004,260,Rock
 299,The World Is A Ghetto,War,classic soul,1972,1972,259,Soul
-300,Good Time Sally,Rare Earth,blues-rock,1972,1972,256,Rock
+300,Good Time Sally,Rare Earth,blues-rock,1972,1972,256,Blues
 301,An American Trilogy,Mickey Newbury,NULL,1972,NULL,255,Unknown
 301,(I Know) I'm Losing You,Rod Stewart,adult standards,1972,1971,255,Oldies
 302,You're The Man (Part 1) - Single Version (Mono),Marvin Gaye,NULL,1972,NULL,252,Unknown
@@ -5590,12 +5590,12 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 309,Hallelujah,Sweathog,NULL,1972,NULL,231,Unknown
 310,Sour Suite,The Guess Who,NULL,1972,NULL,230,Unknown
 311,Everybody Knows About My Good Thing Pt. 1,Little Johnny Taylor,NULL,1972,NULL,228,Unknown
-312,Josie,Kris Kristofferson,country rock,1972,1972,227,country
+312,Josie,Kris Kristofferson,country rock,1972,1972,227,Country
 313,"Theme From Shaft""""",Isaac Hayes,NULL,1972,NULL,225,Unknown
 313,War Song - Single,Neil Young & Graham Nash with The Stray Gators,NULL,1972,NULL,225,Unknown
 314,Colorado,Danny Holien,NULL,1972,NULL,224,Unknown
 314,I Love You More Than You'll Ever Know,Donny Hathaway,NULL,1972,NULL,224,Unknown
-315,Keep Playin' That Rock 'n' Roll,"{'4uOdVRRuTWjJVkcN0LXxwL': Edgar Winter's White Trash""}""",blues-rock,1972,NULL,223,Rock
+315,Keep Playin' That Rock 'n' Roll,"{'4uOdVRRuTWjJVkcN0LXxwL': Edgar Winter's White Trash""}""",blues-rock,1972,NULL,223,Blues
 316,Changes,David Bowie,-,1972,2004,221,Unknown
 317,Baby I'm-a Want You,Bread,adult standards,1972,NULL,219,Oldies
 318,Think (About It),Lyn Collins,NULL,1972,NULL,218,Unknown
@@ -5614,7 +5614,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 330,Where Did Our Love Go,Donnie Elbert,NULL,1972,NULL,197,Unknown
 331,Friends with You,John Denver,folk,1972,NULL,192,Folk
 332,Baby Won't You Let Me Rock n' Roll You,Ten Years After,NULL,1972,NULL,190,Unknown
-333,Move 'Em Out,Delaney & Bonnie,blues-rock,1972,NULL,188,Rock
+333,Move 'Em Out,Delaney & Bonnie,blues-rock,1972,NULL,188,Blues
 334,You're A Lady,Peter Skellern,NULL,1972,NULL,187,Unknown
 335,"Theme from Summer Of '42""""",Michel Legrand,NULL,1972,NULL,185,Unknown
 335,Superstar (Remember How You Got Where You Are),Temps & Eddie Kendricks,NULL,1972,NULL,185,Unknown
@@ -5626,7 +5626,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 340,Do What You Set Out To Do,"Bobby Blue"" Bland""",NULL,1972,NULL,178,Unknown
 341,Papa Was A Rollin' Stone,The Undisputed Truth,classic soul,1972,1973,177,Soul
 342,Take It Slow (Out In The Country),lighthouse,NULL,1972,NULL,169,Unknown
-343,What'd I Say,Rare Earth,blues-rock,1972,1971,167,Rock
+343,What'd I Say,Rare Earth,blues-rock,1972,1971,167,Blues
 344,Reelin' And Rockin',Chuck Berry,NULL,1972,NULL,165,Unknown
 344,Telegram Sam,T. Rex,album rock,1972,1972,165,Rock
 345,Ajax Airlines,Hudson & Landry,NULL,1972,NULL,164,Unknown
@@ -5681,7 +5681,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 380,I Can't Stand To See You Cry,Smokey Robinson & The Miracles,NULL,1972,NULL,89,Unknown
 381,"Wholy Holy (Live at New Temple Missionary Baptist Church, Los Angeles, January 13, 1972) - Single Edit",Aretha Franklin,NULL,1972,NULL,86,Unknown
 382,Annabelle,Daniel Boone,NULL,1972,NULL,83,Unknown
-383,I Can't Turn You Loose - Live,"{'4uOdVRRuTWjJVkcN0LXxwL': uEdgar Winter's White Trash""}""",blues-rock,1972,NULL,80,Rock
+383,I Can't Turn You Loose - Live,"{'4uOdVRRuTWjJVkcN0LXxwL': uEdgar Winter's White Trash""}""",blues-rock,1972,NULL,80,Blues
 383,Goodbye Again,John Denver,folk,1972,1972,80,Folk
 383,I Don't Need No Doctor,New Riders of the Purple Sage,NULL,1972,NULL,80,Unknown
 383,Lady Eleanor,Lindisfarne,NULL,1972,NULL,80,Unknown
@@ -5750,7 +5750,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 419,Son Of My Father,Chicory Tip,NULL,1972,NULL,34,Unknown
 420,Buzzy Brown,Tim Davis,NULL,1972,NULL,33,Unknown
 421,Keep on Doin' What You're Doin',Bobby Byrd,NULL,1972,NULL,32,Unknown
-422,Rock and Roll Crazies / Cuban Bluegrass,Stephen Stills,blues-rock,1972,NULL,31,Rock
+422,Rock and Roll Crazies / Cuban Bluegrass,Stephen Stills,blues-rock,1972,NULL,31,Blues
 423,School Teacher,Kenny Rogers & The First Edition,-,1972,1996,30,Unknown
 424,All His Children,Charley Pride,NULL,1972,NULL,29,Unknown
 424,Didn't We,Barbra Streisand,adult standards,1972,2012,29,Oldies
@@ -5806,7 +5806,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 446,Don't Ever Take Away My Freedom,Peter Yarrow,NULL,1972,NULL,4,Unknown
 447,I Never Said Goodbye,Engelbert Humperdinck,adult standards,1972,1972,1,Oldies
 447,I Miss You Baby,Millie Jackson,NULL,1972,NULL,1,Unknown
-1,Why Me,Kris Kristofferson,country rock,1973,1972,3048,country
+1,Why Me,Kris Kristofferson,country rock,1973,1972,3048,Country
 2,Tie a Yellow Ribbon Round the Ole Oak Tree (Karaoke Version) - Originally Performed By Dawn Featuring Tony Orlando,Sing Karaoke Sing,NULL,1973,NULL,2262,Unknown
 3,The Playground in My Mind,Clint Holmes,NULL,1973,NULL,2093,Unknown
 4,"Bad, Bad Leroy Brown",Jim Croce,album rock,1973,1973,1991,Rock
@@ -6247,7 +6247,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 371,You Can Do Magic (In The Style Of Limmie And Family Cookin') - Karaoke Version,Karaoke Hit Squad,NULL,1973,NULL,78,Unknown
 372,As Time Goes By,Harry Nilsson,art rock,1973,1973,77,Rock
 372,You're a Lady,Dawn,NULL,1973,NULL,77,Unknown
-373,Jim Dandy,Black Oak Arkansas,blues-rock,1973,NULL,76,Rock
+373,Jim Dandy,Black Oak Arkansas,blues-rock,1973,NULL,76,Blues
 374,A Fool Such As I,Bob Dylan,NULL,1973,NULL,75,Unknown
 375,Big Time Operator,Keith Hampshire,NULL,1973,NULL,73,Unknown
 376,Put Your Hands Together,"{'38h03gA85YYPeDPd9ER9rT': The O'Jays""}""",classic soul,1973,NULL,72,Soul
@@ -6268,7 +6268,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 386,This Is Your Song (Re-Mastered),Don Goodwin,NULL,1973,NULL,53,Unknown
 386,Let Your Hair Down,The Temptations,classic soul,1973,1973,53,Soul
 387,What's Your Mama's Name,Tanya Tucker,NULL,1973,NULL,47,Unknown
-387,Midnight Rider,Gregg Allman,blues-rock,1973,1973,47,Rock
+387,Midnight Rider,Gregg Allman,blues-rock,1973,1973,47,Blues
 388,We Need Order,The Chi-Lites,chicago soul,1973,NULL,46,Soul
 389,Everybody Loves A Love Song,Mac Davis,bubblegum pop,1973,NULL,45,Pop
 389,Choo Choo Mama,Ten Years After,album rock,1973,1972,45,Rock
@@ -6304,7 +6304,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 409,Saw A New Morning,Bee Gees,disco,1973,1973,19,Dance
 410,Come Softly To Me,The New Seekers,bubblegum pop,1973,2019,18,Pop
 411,Teenage Lament '74,Alice Cooper,album rock,1973,NULL,17,Rock
-411,We're Gonna Have A Good Time,Rare Earth,blues-rock,1973,1972,17,Rock
+411,We're Gonna Have A Good Time,Rare Earth,blues-rock,1973,1972,17,Blues
 411,I Miss You Baby,Millie Jackson,NULL,1973,NULL,17,Unknown
 411,Wang Dang Doodle,The Pointer Sisters,NULL,1973,NULL,17,Unknown
 412,Mr. Skin,Spirit,-,1973,NULL,15,Unknown
@@ -6374,7 +6374,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 47,Tin Man,America,album rock,1974,NULL,1520,Rock
 48,Mockingbird (Αs performed by Carly Simon & James Taylor),Pop Music Workshop,NULL,1974,NULL,1482,Unknown
 49,Dark Lady,Cher,dance pop,1974,1992,1480,Pop
-50,Keep On Smilin',Wet Willie,country rock,1974,NULL,1479,country
+50,Keep On Smilin',Wet Willie,country rock,1974,NULL,1479,Country
 51,Waterloo,ABBA,europop,1974,NULL,1476,Pop
 52,Tell Me Something Good,Rufus & Chaka Khan,funk,1974,1974,1475,Funk
 53,Please Come to Boston,The Karaoke Channel,NULL,1974,NULL,1473,Unknown
@@ -6481,7 +6481,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 144,After the Goldrush,Prelude,-,1974,2006,896,Unknown
 145,Time In a Bottle,Jim Croce,album rock,1974,1972,892,Rock
 146,You Got The Love,Rufus & Chaka Khan,funk,1974,1974,887,Funk
-147,"Rock and Roll, Hoochie Koo",Rick Derringer,blues-rock,1974,NULL,873,Rock
+147,"Rock and Roll, Hoochie Koo",Rick Derringer,blues-rock,1974,NULL,873,Blues
 148,People Gotta Move,Gino Vannelli,NULL,1974,NULL,870,Unknown
 149,Fairytale,The Pointer Sisters,dance pop,1974,1974,868,Pop
 150,"Never, Never Gonna Give Ya Up",Barry White,adult standards,1974,1973,867,Oldies
@@ -6495,12 +6495,12 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 157,Overnight Sensation (Hit Record) - Live,Raspberries,NULL,1974,NULL,817,Unknown
 158,Come Monday,Jimmy Buffett,folk rock,1974,1974,814,Folk
 159,Last Kiss,Wednesday,NULL,1974,NULL,808,Unknown
-160,Midnight Rider,Gregg Allman,blues-rock,1974,1973,794,Rock
+160,Midnight Rider,Gregg Allman,blues-rock,1974,1973,794,Blues
 161,Hello It's Me,Todd Rundgren,NULL,1974,NULL,791,Unknown
 161,Goodbye Yellow Brick Road - Remastered 2014,Elton John,glam rock,1974,1973,791,Rock
 162,Leave Me Alone (Ruby Red Dress),Helen Reddy,NULL,1974,NULL,777,Unknown
 163,Promised Land,Elvis Presley,rock-and-roll,1974,1975,764,Rock
-164,Jim Dandy,Black Oak Arkansas,blues-rock,1974,NULL,763,Rock
+164,Jim Dandy,Black Oak Arkansas,blues-rock,1974,NULL,763,Blues
 164,Train Of Thought,Cher,dance pop,1974,1974,763,Pop
 165,"Live It Up, Pts. 1 & 2 - Part 1",The Isley Brothers,NULL,1974,NULL,759,Unknown
 166,Star,Stealers Wheel,classic rock,1974,1973,758,Rock
@@ -6674,7 +6674,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 307,I Belong To You,Love Unlimited,NULL,1974,NULL,200,Unknown
 308,A Fool Such As I,Bob Dylan,NULL,1974,NULL,199,Unknown
 309,King of Nothing,Seals and Crofts,adult standards,1974,NULL,198,Oldies
-310,Travelin' Shoes,Elvin Bishop,blues-rock,1974,NULL,197,Rock
+310,Travelin' Shoes,Elvin Bishop,blues-rock,1974,NULL,197,Blues
 311,Honey Honey,Sweet Dreams,NULL,1974,NULL,196,Unknown
 312,Help Yourself,The Undisputed Truth,NULL,1974,NULL,195,Unknown
 312,The Moonlight Special,Ray Stevens,bubblegum pop,1974,2014,195,Pop
@@ -6734,16 +6734,16 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 350,Midnight Train to Georgia,Gladys Knight & The Pips,brill building pop,1974,NULL,119,Pop
 350,The Battle Of New Orleans,Nitty Gritty Dirt Band,bluegrass,1974,1974,119,Folk
 351,Silly Milly,Blue Swede,NULL,1974,NULL,114,Unknown
-352,Country Side Of Life,Wet Willie,country rock,1974,NULL,112,country
+352,Country Side Of Life,Wet Willie,country rock,1974,NULL,112,Country
 353,Power Of Love,Martha Reeves,NULL,1974,NULL,110,Unknown
-353,If I Were A Carpenter,Leon Russell,blues-rock,1974,2011,110,Rock
+353,If I Were A Carpenter,Leon Russell,blues-rock,1974,2011,110,Blues
 354,My Love,Margie Joseph,NULL,1974,NULL,107,Unknown
 355,Please Daddy,John Denver,folk,1974,NULL,105,Folk
 356,James Dean,Eagles,NULL,1974,NULL,102,Unknown
 356,Struttin',Billy Preston,funk,1974,1974,102,Funk
 357,Skybird,Neil Diamond,NULL,1974,NULL,100,Unknown
 358,"Bad, Bad Leroy Brown",Frank Sinatra,adult standards,1974,NULL,98,Oldies
-358,Teenage Love Affair,Rick Derringer,blues-rock,1974,NULL,98,Rock
+358,Teenage Love Affair,Rick Derringer,blues-rock,1974,NULL,98,Blues
 359,Let Me Try Again (Laisse Moi le Temps),Frank Sinatra,adult standards,1974,NULL,95,Oldies
 360,One Tear,Eddie Kendricks,classic soul,1974,2005,93,Soul
 361,Ride the Tiger,Jefferson Starship,NULL,1974,NULL,92,Unknown
@@ -6872,7 +6872,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 27,(Hey Won't You Play) Another Somebody Done Somebody Wrong Song - Live,B.J. Thomas,NULL,1975,NULL,1539,Unknown
 28,Miracles,Jefferson Starship,album rock,1975,1975,1530,Rock
 29,Lady Marmalade,Patti LaBelle,disco,1975,NULL,1523,Dance
-30,Wildfire,Michael Martin Murphey,country rock,1975,NULL,1521,country
+30,Wildfire,Michael Martin Murphey,country rock,1975,NULL,1521,Country
 31,Fire,Ohio Players,classic soul,1975,1976,1499,Soul
 32,Black Water,The Doobie Brothers,album rock,1975,NULL,1495,Rock
 33,"Jive Talkin' - From Saturday Night Fever"" Soundtrack""",Bee Gees,disco,1975,1975,1491,Dance
@@ -6997,7 +6997,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 143,Operator,The Manhattan Transfer,a cappella,1975,1970,759,Other
 144,Satin Soul,The Love Unlimited Orchestra,NULL,1975,NULL,758,Unknown
 145,Just A Little Bit Of You,Michael Jackson,pop,1975,1975,746,Pop
-146,Rockin' All Over The World,John Fogerty,blues-rock,1975,2006,742,Rock
+146,Rockin' All Over The World,John Fogerty,blues-rock,1975,2006,742,Blues
 147,Solitaire,Carpenters,adult standards,1975,1975,737,Oldies
 148,Mornin' Beautiful,Tony Orlando & Dawn,NULL,1975,NULL,724,Unknown
 149,7-6-5-4-3-2-1 (Blow Your Whistle),Gary Toms Empire,NULL,1975,NULL,722,Unknown
@@ -7212,7 +7212,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 330,Bringing It Back - Undubbed Version,Elvis Presley,rock-and-roll,1975,1975,153,Rock
 331,One Tear,Eddie Kendricks,classic soul,1975,2005,146,Soul
 332,Thank You Baby,The Stylistics,adult standards,1975,2005,145,Oldies
-332,Leona,Wet Willie,country rock,1975,1975,145,country
+332,Leona,Wet Willie,country rock,1975,1975,145,Country
 333,Down To The Line,Bachman-Turner Overdrive,album rock,1975,1975,144,Rock
 334,Reconsider Me,Narvel Felts,NULL,1975,NULL,141,Unknown
 334,Like A Sunday Morning,Lana Cantrell,NULL,1975,NULL,141,Unknown
@@ -7344,7 +7344,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 413,I Just Can't Say Goodbye,Philly Devotions,NULL,1975,NULL,12,Unknown
 414,Chico and the Man,José Feliciano,NULL,1975,NULL,11,Unknown
 415,Believe Half Of What You See (And None Of What You Hear),Leon Haywood,classic soul,1975,1974,10,Soul
-415,Dixie Rock,Wet Willie,country rock,1975,1975,10,country
+415,Dixie Rock,Wet Willie,country rock,1975,1975,10,Country
 416,Better By The Pound,Funkadelic,funk,1975,1975,9,Funk
 416,You And Your Baby Blues,Solomon Burke,NULL,1975,NULL,9,Unknown
 417,It Do Feel Good,Donna Fargo,NULL,1975,NULL,8,Unknown
@@ -7676,7 +7676,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 287,Rocky Mountain Music,Eddie Rabbitt,NULL,1976,NULL,218,Unknown
 287,Vaya Con Dios,Freddy Fender,NULL,1976,NULL,218,Unknown
 288,Daylight,Vicki Sue Robinson,NULL,1976,NULL,216,Unknown
-288,Back To The Island,Leon Russell,blues-rock,1976,2011,216,Rock
+288,Back To The Island,Leon Russell,blues-rock,1976,2011,216,Blues
 289,The Jam,Graham Central Station,funk,1976,NULL,211,Funk
 290,Lookin' Out For #1,Bachman-Turner Overdrive,album rock,1976,1975,208,Rock
 291,If I Only Knew,The Ozark Mountain Daredevils,album rock,1976,NULL,205,Rock
@@ -7735,7 +7735,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 329,St. Charles,Jefferson Starship,NULL,1976,NULL,132,Unknown
 330,Lonely Teardrops,Narvel Felts,NULL,1976,NULL,128,Unknown
 331,For a Dancer,Prelude,-,1976,2006,126,Unknown
-332,"Evergreen (Love Theme from, A Star Is Born"")""",Barbra Streisand,country rock,1976,NULL,124,country
+332,"Evergreen (Love Theme from, A Star Is Born"")""",Barbra Streisand,country rock,1976,NULL,124,Country
 332,What's the Name of This Funk (Spider Man),Ramsey Lewis,NULL,1976,NULL,124,Unknown
 333,Make Love to Your Mind,Bill Withers,classic soul,1976,1975,123,Soul
 334,Nutbush City Limits,Bob Seger,album rock,1976,1975,118,Rock
@@ -7760,7 +7760,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 344,Amber Cascades,America,NULL,1976,NULL,97,Unknown
 345,There Won't Be No Country Music (There Won't Be No Rock 'N' Roll),C.W. McCall,NULL,1976,NULL,96,Unknown
 346,Night Moves,Bob Seger,album rock,1976,1976,93,Rock
-347,Everything That 'Cha Do (Will Come Back To You),Wet Willie,country rock,1976,NULL,91,country
+347,Everything That 'Cha Do (Will Come Back To You),Wet Willie,country rock,1976,NULL,91,Country
 347,Here's Some Love,Tanya Tucker,NULL,1976,NULL,91,Unknown
 347,The Last Game of the Season (A Blind Man in the Bleachers) - Originally Performed By David Geddes,B the Star,NULL,1976,NULL,91,Unknown
 348,California Day,Starland Vocal Band,soft rock,1976,NULL,90,Rock
@@ -7777,7 +7777,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 356,Fly Like An Eagle,Steve Miller Band,NULL,1976,NULL,79,Unknown
 357,Volare,Al Martino,NULL,1976,NULL,78,Unknown
 358,Save It For A Rainy Day,Stephen Bishop,adult standards,1976,1976,77,Oldies
-358,Let It Shine,Santana,blues-rock,1976,1976,77,Rock
+358,Let It Shine,Santana,blues-rock,1976,1976,77,Blues
 359,Flaming Youth,KISS,album rock,1976,1976,74,Rock
 360,January,Pilot,NULL,1976,NULL,73,Unknown
 361,This Old Heart of Mine (w/ Ronald Isley),Rod Stewart,adult standards,1976,NULL,70,Oldies
@@ -7874,7 +7874,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 412,Roxy Roller,Sweeney Todd,NULL,1976,NULL,2,Unknown
 1,I Just Want To Be Your Everything,Andy Gibb,adult standards,1977,1977,3137,Oldies
 2,(Your Love Has Lifted Me) Higher And Higher,Rita Coolidge,adult standards,1977,1977,2578,Oldies
-3,"Evergreen (Love Theme from, A Star Is Born"")""",Barbra Streisand,country rock,1977,NULL,2355,country
+3,"Evergreen (Love Theme from, A Star Is Born"")""",Barbra Streisand,country rock,1977,NULL,2355,Country
 4,Angel in Your Arms,The Karaoke Channel,NULL,1977,NULL,2352,Unknown
 5,Undercover Angel,"{'63f6RFsOlwDMnAuDwjB58Y': Alan O'Day""}""",NULL,1977,NULL,2322,Unknown
 6,Best of My Love,The Emotions,chicago soul,1977,NULL,2305,Soul
@@ -8030,7 +8030,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 149,Swingtown - Alternate Version,Steve Miller Band,NULL,1977,NULL,854,Unknown
 150,Sentimental Lady,Bob Welch,album rock,1977,1977,852,Rock
 151,Crackerbox Palace,Sweet Little Band,NULL,1977,NULL,831,Unknown
-152,She's Not There,Santana,blues-rock,1977,1977,822,Rock
+152,She's Not There,Santana,blues-rock,1977,1977,822,Blues
 153,Livin' Thing,Electric Light Orchestra,album rock,1977,1976,818,Rock
 154,Gloria,Enchantment,NULL,1977,NULL,816,Unknown
 154,I Wouldn't Want to Be Like You,The Alan Parsons Project,album rock,1977,1977,816,Rock
@@ -8187,7 +8187,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 281,The Happy Girls,Helen Reddy,adult standards,1977,1987,261,Oldies
 282,Kong - ipod edit,Dickie Goodman,NULL,1977,NULL,260,Unknown
 283,Dedication,Les McKeown Legendary Bay City Rollers,NULL,1977,NULL,253,Unknown
-284,Watch Closely Now,Kris Kristofferson,country rock,1977,NULL,249,country
+284,Watch Closely Now,Kris Kristofferson,country rock,1977,NULL,249,Country
 285,See You When I Git There,Lou Rawls,NULL,1977,NULL,238,Unknown
 286,Don't Take Away The Music,Tavares,NULL,1977,NULL,234,Unknown
 287,The Martian Boogie,Brownsville Station,NULL,1977,NULL,232,Unknown
@@ -8217,7 +8217,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 306,Down the Hall,Frankie Valli & The Four Seasons,NULL,1977,NULL,186,Unknown
 307,Feel The Beat (Everybody Disco),Ohio Players,classic soul,1977,1976,181,Soul
 308,I Can't Help Myself - 2008 Version,Eddie Rabbitt,NULL,1977,NULL,180,Unknown
-309,Street Corner Serenade,Wet Willie,country rock,1977,1977,179,country
+309,Street Corner Serenade,Wet Willie,country rock,1977,1977,179,Country
 309,C.B. Savage,Rod Hart,NULL,1977,NULL,179,Unknown
 310,Sound And Vision,David Bowie,-,1977,2016,178,Unknown
 311,Hurry Sundown,The Outlaws,album rock,1977,NULL,177,Rock
@@ -8304,7 +8304,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 371,I Can't Ask for Anymore Than You,Cliff Richard,NULL,1977,NULL,49,Unknown
 371,Heaven on Earth (So Fine) - Single Version,Phil Collins,NULL,1977,NULL,49,Unknown
 371,It's Uncanny,Daryl Hall & John Oates,NULL,1977,NULL,49,Unknown
-372,Nothing But A Breeze,Jesse Winchester,country rock,1977,NULL,47,country
+372,Nothing But A Breeze,Jesse Winchester,country rock,1977,NULL,47,Country
 373,Wake Up And Be Somebody,Brainstorm,p funk,1977,1977,46,Funk
 374,Let's Clean Up the Ghetto (feat. The Philadelphia International All-Stars),The Philadelphia International All-Stars,NULL,1977,NULL,44,Unknown
 375,For a While,Mary MacGregor,NULL,1977,NULL,43,Unknown
@@ -8542,7 +8542,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 171,Forever Autumn,Justin Hayward,NULL,1978,NULL,667,Unknown
 171,I'm Gonna Take Care of Everything,Rubicon,NULL,1978,NULL,667,Unknown
 172,Instant Replay,Dan Hartman,NULL,1978,NULL,666,Unknown
-173,Street Corner Serenade,Wet Willie,country rock,1978,1977,664,country
+173,Street Corner Serenade,Wet Willie,country rock,1978,1977,664,Country
 174,Think It Over,Cheryl Ladd,-,1978,1978,662,Unknown
 175,It's You That I Need,Enchantment,NULL,1978,NULL,659,Unknown
 175,"Sweet, Sweet Smile",Carpenters,adult standards,1978,1977,659,Oldies
@@ -8559,7 +8559,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 185,Don't It Make My Brown Eyes Blue,Crystal Gayle,country,1978,1977,615,Country
 186,You Really Got Me - 2015 Remaster,Van Halen,NULL,1978,NULL,607,Unknown
 187,Can You Fool,Glen Campbell,adult standards,1978,1978,606,Oldies
-188,Warm Ride,Rare Earth,blues-rock,1978,1995,605,Rock
+188,Warm Ride,Rare Earth,blues-rock,1978,1995,605,Blues
 189,My Best Friend's Girl,The Cars,NULL,1978,NULL,602,Unknown
 189,Lovely Day,Bill Withers,classic soul,1978,1977,602,Soul
 190,Part Time Love,Elton John,glam rock,1978,1978,600,Rock
@@ -8635,7 +8635,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 251,My Way,Elvis Presley,rock-and-roll,1978,1973,358,Rock
 252,Ready For The Times To Get Better,Crystal Gayle,NULL,1978,NULL,354,Unknown
 253,You Can't Dance,England Dan & John Ford Coley,NULL,1978,NULL,353,Unknown
-254,Make You Feel Love Again,Wet Willie,country rock,1978,NULL,352,country
+254,Make You Feel Love Again,Wet Willie,country rock,1978,NULL,352,Country
 255,Heaven on the 7th Floor (Originally Performed by Paul Nicholas) [Vocal Version],Mega Tracks Karaoke Band,NULL,1978,NULL,351,Unknown
 256,Lights,Journey,album rock,1978,NULL,348,Rock
 257,A Man I'll Never Be,Boston,album rock,1978,1978,345,Rock
@@ -8679,7 +8679,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 289,Weekend Lover,Odyssey,NULL,1978,NULL,263,Unknown
 290,If You Wanna Do a Dance (Single Version),The Spinners,NULL,1978,NULL,262,Unknown
 291,How Can I Leave You Again,John Denver,folk,1978,1984,260,Folk
-292,Well All Right,Santana,blues-rock,1978,1978,252,Rock
+292,Well All Right,Santana,blues-rock,1978,1978,252,Blues
 292,Reach for It,George Duke,funk,1978,NULL,252,Funk
 293,Blame It on the Boogie,The Jacksons,disco,1978,1978,251,Dance
 294,Please Come Home for Christmas - Eagles 2013 Remaster,Eagles,NULL,1978,NULL,250,Unknown
@@ -8760,7 +8760,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 356,Mañana,Jimmy Buffett,folk rock,1978,1978,95,Folk
 357,It's Over,Electric Light Orchestra,album rock,1978,NULL,92,Rock
 358,Long Hot Summer Nights,Wendy Waldman,NULL,1978,NULL,89,Unknown
-359,She's Not There,Santana,blues-rock,1978,1977,88,Rock
+359,She's Not There,Santana,blues-rock,1978,1977,88,Blues
 360,(Any Way That You Want It) I'll Be There,Starz,-,1978,2010,87,Unknown
 361,Break It To Them Gently,Burton Cummings,NULL,1978,NULL,86,Unknown
 362,Belle,Al Green,classic soul,1978,NULL,85,Soul
@@ -8991,7 +8991,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 158,Found A Cure,Ashford & Simpson,NULL,1979,NULL,755,Unknown
 159,Haven't Stopped Dancing Yet,Gonzalez,NULL,1979,NULL,754,Unknown
 160,Getting Closer,Post Child,NULL,1979,NULL,753,Unknown
-161,Weekend,Wet Willie,country rock,1979,1979,751,country
+161,Weekend,Wet Willie,country rock,1979,1979,751,Country
 162,Let Me Know (I Have A Right),Gloria Gaynor,NULL,1979,NULL,749,Unknown
 163,Hold On,Triumph,NULL,1979,NULL,743,Unknown
 164,It Must Be Love,Alton McClain & Destiny,NULL,1979,NULL,742,Unknown
@@ -9028,7 +9028,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 194,Arrow Through Me,Wings,album rock,1979,2016,600,Rock
 195,Oh Honey,Delegation,NULL,1979,NULL,596,Unknown
 196,You Gonna Make Me Love Somebody Else,The Jones Girls,NULL,1979,NULL,592,Unknown
-197,Stormy,Santana,blues-rock,1979,1978,591,Rock
+197,Stormy,Santana,blues-rock,1979,1978,591,Blues
 198,Don't Let Go,Isaac Hayes,classic soul,1979,1979,586,Soul
 199,Wait for Me,Daryl Hall & John Oates,album rock,1979,NULL,585,Rock
 199,Double Vision,Foreigner,album rock,1979,NULL,585,Rock
@@ -9047,7 +9047,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 209,Pretty Girls,Melissa Manchester,NULL,1979,NULL,533,Unknown
 210,I Don't Want Nobody Else (To Dance with You),Narada Michael Walden,disco,1979,NULL,528,Dance
 211,Love Don't Live Here Anymore,Rose Royce,classic soul,1979,NULL,519,Soul
-211,Young Blood,Rickie Lee Jones,country rock,1979,1979,519,country
+211,Young Blood,Rickie Lee Jones,country rock,1979,1979,519,Country
 212,Shattered - Remastered,The Rolling Stones,album rock,1979,1978,516,Rock
 213,How You Gonna See Me Now,Alice Cooper,album rock,1979,NULL,515,Rock
 213,Georgy Porgy,Toto,NULL,1979,NULL,515,Unknown
@@ -9135,7 +9135,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 284,Wasn't It Good,Cher,dance pop,1979,1979,296,Pop
 284,Dancin' Shoes,Faith Band,NULL,1979,NULL,296,Unknown
 285,Can You Read My Mind (Karaoke Version) [Originally Performed By Maureen Mcgovern],Anna Gramm,NULL,1979,NULL,293,Unknown
-286,One Chain (Don't Make No Prison),Santana,blues-rock,1979,1978,292,Rock
+286,One Chain (Don't Make No Prison),Santana,blues-rock,1979,1978,292,Blues
 287,In the Stone,"Earth, Wind & Fire",disco,1979,NULL,290,Dance
 288,Say Maybe,Neil Diamond,adult standards,1979,1978,286,Oldies
 289,I'm Every Woman,Chaka Khan,NULL,1979,NULL,285,Unknown
@@ -9161,7 +9161,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 308,Going Through the Motions,Hot Chocolate,NULL,1979,NULL,237,Unknown
 309,You're the Only One,Dolly Parton,country,1979,1979,234,Country
 309,One Fine Day,Rita Coolidge,adult standards,1979,1979,234,Oldies
-310,You Know That I Love You,Santana,blues-rock,1979,1979,227,Rock
+310,You Know That I Love You,Santana,blues-rock,1979,1979,227,Blues
 311,Starry Eyes,The Records,NULL,1979,NULL,225,Unknown
 312,At Midnight,T-Connection,NULL,1979,NULL,222,Unknown
 313,Killer Cut,Charlie,NULL,1979,NULL,220,Unknown
@@ -9173,7 +9173,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 317,Hard Times for Lovers,Judy Collins,NULL,1979,NULL,210,Unknown
 317,Why Leave Us Alone,Five Special,NULL,1979,NULL,210,Unknown
 318,Sweet Life,Paul Davis,NULL,1979,NULL,209,Unknown
-319,Girls Talk,Dave Edmunds,blues-rock,1979,NULL,202,Rock
+319,Girls Talk,Dave Edmunds,blues-rock,1979,NULL,202,Blues
 320,Alive Again,Chicago,NULL,1979,NULL,199,Unknown
 320,Lonely Wind,Kansas,NULL,1979,NULL,199,Unknown
 320,Do You Love What You Feel,Rufus & Chaka Khan,funk,1979,1979,199,Funk
@@ -9524,7 +9524,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 201,Atomic,Blondie,NULL,1980,NULL,519,Unknown
 202,All Night Thing,"{'2k3lgcrKLU6GpEFBm9ueKJ': Invisible Man's Band""}""",-,1980,1980,513,Unknown
 203,Voices,Cheap Trick,album rock,1980,1979,512,Rock
-204,You Know That I Love You,Santana,blues-rock,1980,1979,511,Rock
+204,You Know That I Love You,Santana,blues-rock,1980,1979,511,Blues
 205,Shandi,KISS,album rock,1980,1980,505,Rock
 206,Flirtin' with Disaster,Molly Hatchet,album rock,1980,NULL,503,Rock
 207,I Got You,The Karaoke Channel,NULL,1980,NULL,500,Unknown
@@ -9762,7 +9762,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 7,A Woman Needs Love (Just Like You Do),"Ray Parker, Jr.",NULL,1981,NULL,2509,Unknown
 8,Just the Two of Us (Karaoke Version With Background Vocals) - Originally Performed By Grover Washington Jr. & Bill Withers,A-Type Player,NULL,1981,NULL,2396,Unknown
 9,Being With You,Smokey Robinson,classic soul,1981,1981,2384,Soul
-10,I Love You,Climax Blues Band,blues-rock,1981,NULL,2382,Rock
+10,I Love You,Climax Blues Band,blues-rock,1981,NULL,2382,Blues
 11,Celebration,Kool & The Gang,disco,1981,1980,2353,Dance
 12,Slow Hand,The Pointer Sisters,dance pop,1981,NULL,2346,Pop
 13,9 to 5,Dolly Parton,country,1981,NULL,2330,Country
@@ -9842,7 +9842,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 82,Another One Bites The Dust,Queen,glam rock,1981,2018,1386,Rock
 83,Smoky Mountain Rain,Ronnie Milsap,NULL,1981,NULL,1358,Unknown
 84,Share Your Love With Me,Kenny Rogers,adult standards,1981,1981,1351,Oldies
-85,Winning,Santana,blues-rock,1981,1981,1348,Rock
+85,Winning,Santana,blues-rock,1981,1981,1348,Blues
 86,Every Woman in the World,Air Supply,adult standards,1981,NULL,1346,Oldies
 87,Gemini Dream,The Moody Blues,album rock,1981,1981,1343,Rock
 88,Here I Am (Just When I Thought I Was Over You),Air Supply,adult standards,1981,NULL,1305,Oldies
@@ -10032,13 +10032,13 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 252,Suzi Found a Weapon,Randy VanWarmer,NULL,1981,NULL,347,Unknown
 253,Turn and Walk Away,The Babys,album rock,1981,1980,345,Rock
 254,Fantastic Voyage,Lakeside,NULL,1981,NULL,341,Unknown
-255,The Sensitive Kind,Santana,blues-rock,1981,1981,336,Rock
+255,The Sensitive Kind,Santana,blues-rock,1981,1981,336,Blues
 256,Mercy Mercy Mercy,Phoebe Snow,folk,1981,1982,335,Folk
 256,Working for the Weekend,Loverboy,album rock,1981,NULL,335,Rock
 257,She's Got a Way,Billy Joel,album rock,1981,1971,334,Rock
 258,Stay Awake,Ronnie Laws,jazz funk,1981,1999,329,Jazz
 259,Fly Away,Peter Allen,NULL,1981,NULL,327,Unknown
-260,Almost Saturday Night,Dave Edmunds,blues-rock,1981,NULL,326,Rock
+260,Almost Saturday Night,Dave Edmunds,blues-rock,1981,NULL,326,Blues
 261,Sign Of The Gypsy Queen,April Wine,album rock,1981,NULL,325,Rock
 262,Controversy,Prince,funk,1981,1981,323,Funk
 263,It's My Job,Jimmy Buffett,folk rock,1981,2005,322,Folk
@@ -10075,7 +10075,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 286,Stop This Game,Cheap Trick,album rock,1981,1980,254,Rock
 287,You Could Have Been With Me,Sheena Easton,adult standards,1981,NULL,252,Oldies
 288,Waiting On A Friend,The Rolling Stones,NULL,1981,NULL,251,Unknown
-289,A Lucky Guy,Rickie Lee Jones,country rock,1981,NULL,249,country
+289,A Lucky Guy,Rickie Lee Jones,country rock,1981,NULL,249,Country
 290,Lately,Stevie Wonder,motown,1981,1980,248,Soul
 291,Let Me Love You Once,Greg Lake,NULL,1981,NULL,246,Unknown
 292,Leader of the Band,Dan Fogelberg,NULL,1981,NULL,244,Unknown
@@ -10237,7 +10237,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 41,Heart Attack,Juliana Hatfield,NULL,1982,NULL,1585,Unknown
 42,Love Is in Control (Finger on the Trigger),Donna Summer,NULL,1982,NULL,1568,Unknown
 43,Love's Been A Little Bit Hard On Me,Juice Newton,country dawn,1982,1988,1567,Country
-44,What's Forever For?,Michael Martin Murphey,country rock,1982,NULL,1563,country
+44,What's Forever For?,Michael Martin Murphey,country rock,1982,NULL,1563,Country
 45,Physical,Olivia Newton-John,adult standards,1982,1981,1560,Oldies
 46,Do You Believe In Love,Huey Lewis & The News,album rock,1982,1982,1512,Rock
 46,Keep the Fire Burnin',REO Speedwagon,NULL,1982,NULL,1512,Unknown
@@ -10292,7 +10292,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 89,Fantasy,Aldo Nova,album rock,1982,NULL,1161,Rock
 90,Through The Years - Single Version,Kenny Rogers,adult standards,1982,1981,1159,Oldies
 91,Magnum PI,Dominik Hauser,NULL,1982,NULL,1158,Unknown
-92,Hold On,Santana,blues-rock,1982,1983,1152,Rock
+92,Hold On,Santana,blues-rock,1982,1983,1152,Blues
 92,Hooked On Classics (Parts 1 & 2),Royal Philharmonic Orchestra conducted by Louis Clark,-,1982,1983,1152,Unknown
 93,Rock This Town,Stray Cats,NULL,1982,NULL,1149,Unknown
 93,Forget Me Nots,Patrice Rushen,classic soul,1982,NULL,1149,Soul
@@ -10580,7 +10580,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 330,All Night with Me - LP / Single Version,Laura Branigan,NULL,1982,NULL,174,Unknown
 331,Here to Love You,The Doobie Brothers,album rock,1982,NULL,172,Rock
 332,Right Away - Remastered,Kansas,album rock,1982,NULL,171,Rock
-333,Nowhere to Run,Santana,blues-rock,1982,1983,168,Rock
+333,Nowhere to Run,Santana,blues-rock,1982,1983,168,Blues
 334,Why You Wanna Try Me,Commodores,adult standards,1982,1981,167,Oldies
 335,Closer To The Heart,Rush,album rock,1982,1977,165,Rock
 336,In The Driver's Seat,John Schneider,-,1982,NULL,164,Unknown
@@ -11030,7 +11030,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 333,Walking In L.A.,Missing Persons,album rock,1983,NULL,187,Rock
 334,"(You're So Square) Baby, I Don't Care",Joni Mitchell,canadian folk,1983,1982,186,Folk
 335,Are You Getting Enough Happiness,Hot Chocolate,NULL,1983,NULL,185,Unknown
-336,Still Taking Chances,Michael Martin Murphey,country rock,1983,NULL,184,country
+336,Still Taking Chances,Michael Martin Murphey,country rock,1983,NULL,184,Country
 337,Goodbye to You,Scandal,new wave pop,1983,NULL,182,Pop
 337,Bang the Drum All Day,Todd Rundgren,NULL,1983,NULL,182,Unknown
 337,Too Much Love To Hide - Remastered,"Crosby, Stills & Nash",album rock,1983,1982,182,Rock
@@ -11077,7 +11077,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 364,The Walls Came Down,The Call,new wave,1983,NULL,129,Electronic
 365,Almost Over You,Sheena Easton,NULL,1983,NULL,128,Unknown
 366,The Monkey Time,Martha Davis,album rock,1983,NULL,127,Rock
-367,Nowhere to Run,Santana,blues-rock,1983,1983,126,Rock
+367,Nowhere to Run,Santana,blues-rock,1983,1983,126,Blues
 367,Drop The Pilot,Joan Armatrading,classic uk pop,1983,NULL,126,Pop
 368,Feet Don't Fail Me Now,Utopia,NULL,1983,NULL,124,Unknown
 368,Shiny Shiny,Haysi Fantayzee,NULL,1983,NULL,124,Unknown
@@ -11461,7 +11461,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 278,Love Light In Flight,Stevie Wonder,-,1984,1984,291,Unknown
 279,Taxi Dancing,Rick Springfield,NULL,1984,NULL,287,Unknown
 280,Communication,Spandau Ballet,NULL,1984,NULL,281,Unknown
-281,Stranger,Stephen Stills,blues-rock,1984,NULL,279,Rock
+281,Stranger,Stephen Stills,blues-rock,1984,NULL,279,Blues
 282,Tenderness,The Karaoke Channel,NULL,1984,NULL,278,Unknown
 283,Souls,Rick Springfield,NULL,1984,NULL,276,Unknown
 284,Original Sin,INXS,australian rock,1984,2011,275,Rock
@@ -11510,7 +11510,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 319,The Medicine Song,Stephanie Mills,classic soul,1984,1995,198,Soul
 320,I Cry Just a Little Bit,"{'0wi4yTYlGtEnbGo4ltZTib': Shakin' Stevens""}""",NULL,1984,NULL,195,Unknown
 321,Missing You,Diana Ross,adult standards,1984,1984,193,Oldies
-322,I Can't Let Go,Stephen Stills,blues-rock,1984,NULL,191,Rock
+322,I Can't Let Go,Stephen Stills,blues-rock,1984,NULL,191,Blues
 323,Amnesia,Shalamar,disco,1984,NULL,190,Dance
 324,Tender Is the Night,Jackson Browne,album rock,1984,1983,185,Rock
 325,The Gap,Thompson Twins,art rock,1984,NULL,184,Rock
@@ -11576,7 +11576,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 372,Sex Crime (Nineteen Eighty Four) [Instrumental],The Professionals,NULL,1984,NULL,84,Unknown
 373,20/20 - Extended Remix,George Benson,NULL,1984,NULL,83,Unknown
 373,Downtown,Dolly Parton,country,1984,1984,83,Country
-374,The Old Man Down The Road,John Fogerty,blues-rock,1984,2010,82,Rock
+374,The Old Man Down The Road,John Fogerty,blues-rock,1984,2010,82,Blues
 375,All Night Long,Billy Squier,album rock,1984,NULL,80,Rock
 375,The Smile Has Left Your Eyes,Asia,album rock,1984,1983,80,Rock
 376,Slow Dancin',Peabo Bryson,NULL,1984,NULL,79,Unknown
@@ -11704,7 +11704,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 77,You Belong To The City,Glenn Frey,NULL,1985,NULL,1504,Unknown
 78,People Are People,Depeche Mode,dance rock,1985,1984,1502,Dance
 79,Somebody,Bryan Adams,album rock,1985,1984,1491,Rock
-80,The Old Man Down The Road,John Fogerty,blues-rock,1985,2010,1475,Rock
+80,The Old Man Down The Road,John Fogerty,blues-rock,1985,2010,1475,Blues
 81,You're Only Human (Second Wind),Billy Joel,NULL,1985,NULL,1472,Unknown
 82,Love Theme from St. Elmo's Fire - Instrumental,David Foster,NULL,1985,NULL,1471,Unknown
 83,You Spin Me Round (Like a Record),Dead Or Alive,NULL,1985,NULL,1466,Unknown
@@ -11783,7 +11783,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 154,Alive And Kicking,Simple Minds,art rock,1985,NULL,949,Rock
 155,Born In The USA,Sweet Little Band,NULL,1985,NULL,942,Unknown
 156,Black Cars,Gino Vannelli,NULL,1985,NULL,939,Unknown
-157,Rock and Roll Girls,John Fogerty,blues-rock,1985,2010,925,Rock
+157,Rock and Roll Girls,John Fogerty,blues-rock,1985,2010,925,Blues
 158,Lost In Love,New Edition,NULL,1985,NULL,923,Unknown
 159,Getcha Back,The Beach Boys,baroque pop,1985,2003,921,Pop
 160,Through the Fire,Chaka Khan,dance pop,1985,NULL,917,Pop
@@ -11820,7 +11820,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 190,The Bird,The Time,disco,1985,1984,784,Dance
 191,Small Town Boy (Bronski Beat-Cover),Deadlock,NULL,1985,NULL,783,Unknown
 192,No Lookin' Back,Michael McDonald,mellow gold,1985,1985,777,Rock
-193,Centerfield,John Fogerty,blues-rock,1985,2010,773,Rock
+193,Centerfield,John Fogerty,blues-rock,1985,2010,773,Blues
 194,Wrap Her Up,Elton John,glam rock,1985,1985,766,Rock
 195,And She Was,Talking Heads,NULL,1985,NULL,761,Unknown
 196,I Can't Hold Back,Survivor,album rock,1985,NULL,756,Rock
@@ -11859,7 +11859,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 225,"Baby, Come And Get It",The Pointer Sisters,dance pop,1985,1989,617,Pop
 226,Lay It Down,Ratt,album rock,1985,NULL,613,Rock
 227,That's What Friends Are For,Elton John,NULL,1985,NULL,611,Unknown
-228,Say It Again,Santana,blues-rock,1985,1985,610,Rock
+228,Say It Again,Santana,blues-rock,1985,1985,610,Blues
 229,Do You Want Crying,Katrina & The Waves,new wave pop,1985,NULL,608,Pop
 230,Stand By Me,Maurice White,-,1985,NULL,604,Unknown
 231,20/20 - Extended Remix,George Benson,NULL,1985,NULL,600,Unknown
@@ -12467,7 +12467,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 351,This Love,Bad Company,album rock,1986,NULL,80,Rock
 352,Stereotomy,The Alan Parsons Project,album rock,1986,1985,78,Rock
 353,I'm Your Man,Barry Manilow,NULL,1986,NULL,75,Unknown
-354,Eye Of The Zombie,John Fogerty,blues-rock,1986,1986,74,Rock
+354,Eye Of The Zombie,John Fogerty,blues-rock,1986,1986,74,Blues
 355,Now And Forever (You And Me),Anne Murray,adult standards,1986,1994,70,Oldies
 356,Graceland,Paul Simon,classic rock,1986,1986,69,Rock
 357,Your Personal Touch,"Evelyn Champagne"" King""",NULL,1986,NULL,68,Unknown
@@ -12778,7 +12778,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 240,Hooked on You,Sweet Sensation,freestyle,1987,1988,462,Dance
 240,Cry Wolf,a-ha,NULL,1987,NULL,462,Unknown
 241,I Want Action,Poison,NULL,1987,NULL,451,Unknown
-242,I'm No Angel,The Gregg Allman Band,blues-rock,1987,NULL,448,Rock
+242,I'm No Angel,The Gregg Allman Band,blues-rock,1987,NULL,448,Blues
 243,Shattered Glass,Laura Branigan,dance rock,1987,1987,447,Dance
 244,Hungry Eyes: Theme from Dirty Dancing (Karaoke Version) - Originally Performed By Eric Carmen,Jerry Mix,NULL,1987,NULL,441,Unknown
 245,Pop Goes The World,Men Without Hats,classic canadian rock,1987,2012,438,Rock
@@ -17667,7 +17667,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 14,"Jumpin', Jumpin'","{'1Y8cdNmUJH7yBTd9yOvr5i': Destiny's Child""}""",dance pop,2000,1999,3178,Pop
 15,I Need to Know,Marc Anthony,NULL,2000,NULL,3036,Unknown
 16,The Way You Love Me,Faith Hill,contemporary country,2000,1999,3033,Country
-17,Maria Maria (feat. The Product G&B) - Radio Mix,The Product G&B,blues-rock,2000,1999,2916,Rock
+17,Maria Maria (feat. The Product G&B) - Radio Mix,The Product G&B,blues-rock,2000,1999,2916,Blues
 18,Back Here,BBMak,boy band,2000,NULL,2890,Pop
 19,Thong Song,Sisqo,hip pop,2000,1999,2862,Pop
 20,I Knew I Loved You,Savage Garden,NULL,2000,NULL,2796,Unknown
@@ -18539,7 +18539,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 113,Grindin',Clipse,alternative hip hop,2002,2002,1231,Hip Hop
 114,Too Bad,Nickelback,alternative metal,2002,2001,1218,Rock
 115,Caramel,City High,NULL,2002,NULL,1214,Unknown
-116,The Game of Love (feat. Michelle Branch) - Main / Radio Mix,Santana,blues-rock,2002,2002,1212,Rock
+116,The Game of Love (feat. Michelle Branch) - Main / Radio Mix,Santana,blues-rock,2002,2002,1212,Blues
 117,The Long Goodbye,Brooks & Dunn,contemporary country,2002,2009,1211,Country
 118,What If She's An Angel,Tommy Shane Steiner,-,2002,2002,1208,Unknown
 119,Where Were You (When the World Stopped Turning),Alan Jackson,contemporary country,2002,2010,1207,Country
@@ -18798,7 +18798,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 9,Get Low featuring Ying Yang Twins,Lil Jon & The East Side Boyz,NULL,2003,NULL,3288,Unknown
 10,Picture (In the Style of Kid Rock Featuring Sheryl Crow) [Karaoke Version],Ameritz Karaoke Entertainment,NULL,2003,NULL,3245,Unknown
 11,Crazy In Love (feat. Jay-Z),Beyoncé,NULL,2003,NULL,2962,Unknown
-12,The Game of Love (feat. Michelle Branch) - Main / Radio Mix,Santana,blues-rock,2003,2002,2916,Rock
+12,The Game of Love (feat. Michelle Branch) - Main / Radio Mix,Santana,blues-rock,2003,2002,2916,Blues
 13,Miss You More,Giannii,NULL,2003,NULL,2843,Unknown
 14,Shake Ya Tailfeather (feat. P. Diddy & Murphy Lee) - 2016 Remaster,Diddy,NULL,2003,NULL,2834,Unknown
 15,Headstrong,Trapt,alternative metal,2003,2002,2788,Rock
@@ -18819,7 +18819,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 30,Rock Wit U (Awww Baby),Ashanti,dance pop,2003,2003,2128,Pop
 31,The Remedy (I Won't Worry),Jason Mraz,acoustic pop,2003,2002,2121,Pop
 32,Baby Boy (feat. Beyoncé ),Beyoncé,dance pop,2003,2002,2101,Pop
-33,Why Don't You & I (feat. Chad Kroeger),Chad Kroeger,blues-rock,2003,2002,2079,Rock
+33,Why Don't You & I (feat. Chad Kroeger),Chad Kroeger,blues-rock,2003,2002,2079,Blues
 34,So Gone,Monica,dance pop,2003,NULL,2050,Pop
 35,Your Body Is a Wonderland,John Mayer,neo mellow,2003,2001,2047,Rock
 36,Mesmerize,Ja Rule,dance pop,2003,2002,2013,Pop
@@ -19255,7 +19255,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 78,Southside,Ashanti,dance pop,2004,2004,1493,Pop
 79,American Soldier,Toby Keith,NULL,2004,NULL,1483,Unknown
 80,Whiskey Girl,Toby Keith,NULL,2004,NULL,1471,Unknown
-81,Why Don't You & I (feat. Chad Kroeger),Chad Kroeger,blues-rock,2004,2002,1470,Rock
+81,Why Don't You & I (feat. Chad Kroeger),Chad Kroeger,blues-rock,2004,2002,1470,Blues
 82,I Go Back,Kenny Chesney,contemporary country,2004,2009,1469,Country
 83,Days Go By,Keith Urban,australian country,2004,2004,1465,Country
 84,You’ll Think Of Me,Keith Urban,australian country,2004,2002,1453,Country
@@ -19836,7 +19836,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 255,Turn It Up,"Chamillionaire', '4Q5sPmM8j4SpMqL4UA1DtS': Lil' Flip""}""",dirty south rap,2005,2005,349,Hip Hop
 256,My Happy Ending,Avril Lavigne,canadian pop,2005,NULL,348,Pop
 257,Be Without You - Kendu Mix,Mary J. Blige,dance pop,2005,2005,346,Pop
-258,Help Somebody,Van Zant,country rock,2005,2005,336,country
+258,Help Somebody,Van Zant,country rock,2005,2005,336,Country
 258,Soul Meets Body,Death Cab for Cutie,folk-pop,2005,2005,336,Pop
 259,Jerk It Out,Caesars,NULL,2005,NULL,334,Unknown
 259,Pretty Vegas,INXS,australian rock,2005,2005,334,Rock
@@ -20652,7 +20652,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 201,Proud of the House We Built,Brooks & Dunn,contemporary country,2007,2007,664,Country
 202,Year 3000,Jonas Brothers,NULL,2007,NULL,656,Unknown
 203,Get Me Bodied,Beyoncé,NULL,2007,NULL,642,Unknown
-204,Into the Night (feat. Chad Kroeger),Chad Kroeger,blues-rock,2007,2007,640,Rock
+204,Into the Night (feat. Chad Kroeger),Chad Kroeger,blues-rock,2007,2007,640,Blues
 205,How 'Bout Them Cowgirls,George Strait,contemporary country,2007,2006,618,Country
 206,Maneater,Nelly Furtado,canadian latin,2007,2006,615,Latin
 207,Fall,Clay Walker,contemporary country,2007,2007,614,Country
@@ -21041,7 +21041,7 @@ song_rank,song_name,artist_name,main_genre,rank_year,release_date,year_end_score
 153,Calabria 2008,Natasja,NULL,2008,NULL,933,Unknown
 154,Shawty Get Loose (feat. Chris Brown & T-Pain),Chris Brown,hip pop,2008,2008,914,Pop
 155,The Business (featuring Casha),Yung Berg,chicago rap,2008,2008,908,Hip Hop
-156,Into the Night (feat. Chad Kroeger),Chad Kroeger,blues-rock,2008,2007,902,Rock
+156,Into the Night (feat. Chad Kroeger),Chad Kroeger,blues-rock,2008,2007,902,Blues
 157,Light On,David Cook,idol,2008,2008,894,Pop
 158,Krazy (Spanish Version),Lil Jon,NULL,2008,NULL,893,Unknown
 159,Every Day,Midday Sun,NULL,2008,NULL,889,Unknown
