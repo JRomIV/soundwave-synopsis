@@ -1,5 +1,6 @@
-data/database_import/lyrics.csv
 other/
 sql_load/original/
 data/exports/genres
 .Rproj.user
+data/database_import/lyrics.csv
+load/original/full_musicoset.sql
