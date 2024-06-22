@@ -1,4 +1,4 @@
-DROP TEMPORARY TABLE IF EXISTS attributes;
+DROP TEMPORARY TABLE IF EXISTS temp_attributes;
 
 CREATE TEMPORARY TABLE temp_attributes AS
 SELECT
@@ -7,7 +7,8 @@ SELECT
     s.explicit,
     s.song_type,
     t.release_date_standard,
-    af.*
+    af.*,
+    af.duration_ms/60000 AS duration_min
 FROM
 	acoustic_features af
 LEFT JOIN
@@ -27,7 +28,6 @@ FROM
 
 -- Avg of all the audio features
 SELECT
-	AVG(popularity) AS avg_popularity,
     AVG(explicit)*100 AS explicit_perc, 
 	AVG(duration_ms)/60000 AS avg_duration_mins,
     AVG(acousticness) AS avg_acousticness,
@@ -54,8 +54,8 @@ FROM
 )
 
 SELECT 
-    AVG(explicit)*100 AS explicit_percentage, 
-	AVG(duration_ms)/60000 AS duration_mins,
+    AVG(explicit)*100 AS explicit_perc, 
+	AVG(duration_ms)/60000 AS avg_duration_mins,
     AVG(acousticness) AS avg_acousticness,
     AVG(danceability) AS avg_danceability,
     AVG(energy) AS avg_energy,
@@ -80,7 +80,8 @@ WITH cte AS(
 SELECT
     RANK() OVER(PARTITION BY YEAR(t.release_date_standard) ORDER BY SUM(sp.year_end_score) DESC) AS song_rank,
     sp.song_id AS id,
-    YEAR(t.release_date_standard) AS release_year,
+    YEAR(t.release_date_standard) AS release_date_standard,
+    s.explicit,
     SUM(sp.year_end_score) AS total_year_end_score
 FROM
     song_pop sp
@@ -92,13 +93,15 @@ LEFT JOIN
     ON sp.song_id = s.song_id
 GROUP BY
     sp.song_id,
-    YEAR(t.release_date_standard)
+    YEAR(t.release_date_standard),
+	s.explicit
 )
-
 SELECT
 	song_rank,
-    release_year,
-    ac.*
+    release_date_standard,
+    explicit,
+    ac.*,
+    ac.duration_ms/60000 AS duration_min
 FROM
 	cte
 LEFT JOIN
@@ -106,5 +109,4 @@ LEFT JOIN
     ON ac.song_id = cte.id
 WHERE
 	song_rank <= 100
-    AND release_year >= 1964;
-
+    AND release_date_standard >= 1964;

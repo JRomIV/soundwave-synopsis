@@ -1,2 +1,2 @@
-explicit_percentage,duration_mins,avg_acousticness,avg_danceability,avg_energy,avg_instrumentalness,avg_liveness,avg_loudness,avg_speechiness,avg_valence,avg_tempo
+explicit_perc,avg_duration_mins,avg_acousticness,avg_danceability,avg_energy,avg_instrumentalness,avg_liveness,avg_loudness,avg_speechiness,avg_valence,avg_tempo
 21.6307,3.86758394,0.1890715295,0.6206302,0.665731366,0.01366341367,0.17454273,-6.8904379,0.08365132,0.53878139,121.8441300
