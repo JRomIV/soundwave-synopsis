@@ -82,3 +82,4 @@ ORDER BY
 	weeks_on_chart DESC
 LIMIT
 	100;
+
