@@ -46,7 +46,7 @@ FROM
 
 
 
--- All time top 100 Billboard albums
+-- All time top 50 Billboard albums
 WITH cte AS(
 SELECT
 	DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS album_rank,
@@ -68,12 +68,13 @@ SELECT
 FROM
 	cte
 WHERE
-	album_rank <= 100;
+	album_rank <= 50;
 
 
 
 -- Longest trending Billboard albums
 SELECT
+	ROW_NUMBER() OVER (ORDER BY MAX(ac.weeks_on_chart) DESC) AS album_rank,
 	ta.album_name AS album_name,
     ta.artist_name AS artist_name,
 	MAX(ac.weeks_on_chart) AS weeks_on_chart,
@@ -90,4 +91,4 @@ GROUP BY
 ORDER BY
 	weeks_on_chart DESC
 LIMIT
-	100;
+	50;

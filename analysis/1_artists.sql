@@ -35,7 +35,7 @@ FROM
 
 
 
--- All time top 100 Billboard artists (using year end score)
+-- All time top 50 Billboard artists (using year end score)
 WITH cte AS (
 SELECT
     DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS artist_rank,
@@ -54,7 +54,7 @@ SELECT
 FROM
 	cte
 WHERE
-	artist_rank <= 100;
+	artist_rank <= 50;
 
 
 
@@ -62,6 +62,7 @@ WHERE
     
 -- Longest trending Billboard artists
 SELECT
+	ROW_NUMBER() OVER (ORDER BY MAX(ac.weeks_on_chart) DESC) AS artist_rank,
 	a.name,
     a.main_genre,
 	MAX(ac.weeks_on_chart) AS weeks_on_chart,
@@ -81,5 +82,5 @@ GROUP BY
 ORDER BY
 	weeks_on_chart DESC
 LIMIT
-	100;
+	50;
 
