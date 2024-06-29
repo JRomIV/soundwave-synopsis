@@ -489,7 +489,7 @@ Here is a breakdown of the findings:
 - The average duration of songs (2.96 mins) were lower in the 1960's than the rest of the decades (4.14 mins).
 
 
-![attributes_trellis](assets\trellis.png)
+![attributes_trellis](assets/trellis.png)
 
 ### 5. Are there any correlations between different musical elements?
 
