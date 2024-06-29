@@ -58,15 +58,15 @@ To identify the most popular music, I used **Year End Score** instead of **Popul
 -- All time top 50 Billboard Artists
 WITH cte AS (
 SELECT
-    DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS artist_rank,
-    artist_name,
-    main_genre,
-    SUM(year_end_score) AS total_year_end_score
+	DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS artist_rank,
+	artist_name,
+	main_genre,
+	SUM(year_end_score) AS total_year_end_score
 FROM
-    artist_temp
+	artist_temp
 GROUP BY
 	artist_name,
-    main_genre
+	main_genre
 )
 
 SELECT
@@ -92,10 +92,10 @@ Here is a breakdown of the top 50 highest ranked artists of all time:
 SELECT
 	ROW_NUMBER() OVER (ORDER BY MAX(ac.weeks_on_chart) DESC) AS artist_rank,
 	a.name,
-    a.main_genre,
+	a.main_genre,
 	MAX(ac.weeks_on_chart) AS weeks_on_chart,
-    MIN(ac.week) AS first_week,
-    MAX(ac.week) AS last_week
+	MIN(ac.week) AS first_week,
+	MAX(ac.week) AS last_week
 FROM
 	artist_chart ac
 LEFT JOIN
@@ -106,7 +106,7 @@ WHERE
     AND a.name != 'Various Artists'
 GROUP BY
 	a.name,
-    a.main_genre
+	a.main_genre
 ORDER BY
 	weeks_on_chart DESC
 LIMIT
@@ -193,17 +193,17 @@ Key findings from the top 50 longest trending artists chart:
 WITH cte AS(
 SELECT
 	DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS album_rank,
-    album_name,
-    artist_name,
-    main_genre,
-    MIN(YEAR(release_date)) AS release_date,
-    SUM(year_end_score) AS total_year_end_score
+	album_name,
+	artist_name,
+	main_genre,
+	MIN(YEAR(release_date)) AS release_date,
+	SUM(year_end_score) AS total_year_end_score
 FROM
 	temp_albums
 GROUP BY
-    album_name,
-    artist_name,
-    main_genre
+	album_name,
+	artist_name,
+	main_genre
 )
 
 SELECT
@@ -228,18 +228,18 @@ Key findings for the top 50 albums of all time:
 -- All time longest trending Billboard Albums 
 SELECT
 	ta.album_name AS album_name,
-    ta.artist_name AS artist_name,
+	ta.artist_name AS artist_name,
 	MAX(ac.weeks_on_chart) AS weeks_on_chart,
-    MIN(ac.week) AS first_week,
-    MAX(ac.week) AS last_week
+	MIN(ac.week) AS first_week,
+	MAX(ac.week) AS last_week
 FROM
 	album_chart ac
 LEFT JOIN
 	temp_albums ta
-    ON ac.album_id = ta.album_id
+	ON ac.album_id = ta.album_id
 GROUP BY
 	album_name,
-    artist_name
+	artist_name
 ORDER BY
 	weeks_on_chart DESC
 LIMIT
@@ -323,17 +323,17 @@ Key findings about the 50 longest trending Billboard albums:
 WITH cte AS(
 SELECT
 	DENSE_RANK() OVER(ORDER BY SUM(year_end_score) DESC) AS song_rank,
-    song_name,
-    artist_name,
-    main_genre,
-    MIN(YEAR(release_date)) AS release_date,
-    SUM(year_end_score) AS total_year_end_score
+	song_name,
+	artist_name,
+	main_genre,
+	MIN(YEAR(release_date)) AS release_date,
+	SUM(year_end_score) AS total_year_end_score
 FROM
 	temp_songs
 GROUP BY
-    song_name,
-    artist_name,
-    main_genre
+	song_name,
+	artist_name,
+	main_genre
 )
     
 SELECT
@@ -355,19 +355,19 @@ Here is what was found about the top 50 songs of all time:
 ```sql
 -- All time longest trending Billboard Songs 
 SELECT
-    ts.song_name,
-    ts.artist_name,
+	ts.song_name,
+	ts.artist_name,
 	MAX(sc.weeks_on_chart) AS weeks_on_chart,
-    MIN(week) AS first_week,
-    MAX(week) AS last_week
+	MIN(week) AS first_week,
+	MAX(week) AS last_week
 FROM
 	song_chart sc
 LEFT JOIN
 	temp_songs ts
-    ON ts.song_id = sc.song_id
+	ON ts.song_id = sc.song_id
 GROUP BY
-    ts.song_name,
-    ts.artist_name
+	ts.song_name,
+	ts.artist_name
 ORDER BY
 	weeks_on_chart DESC
 LIMIT
@@ -448,13 +448,13 @@ Here is a breakdown of the top 50 highest ranked artists of all time:
 -- Acoustic Features of the top 100 songs from 1964-2019
 WITH cte AS(
 SELECT
-    RANK() OVER(PARTITION BY YEAR(t.release_date_standard) ORDER BY SUM(sp.year_end_score) DESC) AS song_rank,
-    sp.song_id AS id,
-    YEAR(t.release_date_standard) AS release_date_standard,
-    s.explicit,
-    SUM(sp.year_end_score) AS total_year_end_score
+	RANK() OVER(PARTITION BY YEAR(t.release_date_standard) ORDER BY SUM(sp.year_end_score) DESC) AS song_rank,
+	sp.song_id AS id,
+	YEAR(t.release_date_standard) AS release_date_standard,
+	s.explicit,
+	SUM(sp.year_end_score) AS total_year_end_score
 FROM
-    song_pop sp
+	song_pop sp
 LEFT JOIN
 	tracks t
     ON t.song_id = sp.song_id
@@ -462,16 +462,16 @@ LEFT JOIN
 	songs s
     ON sp.song_id = s.song_id
 GROUP BY
-    sp.song_id,
-    YEAR(t.release_date_standard),
+	sp.song_id,
+	YEAR(t.release_date_standard),
 	s.explicit
 )
 SELECT
 	song_rank,
-    release_date_standard,
-    explicit,
-    ac.*,
-    ac.duration_ms/60000 AS duration_min
+	release_date_standard,
+	explicit,
+	ac.*,
+	ac.duration_ms/60000 AS duration_min
 FROM
 	cte
 LEFT JOIN
