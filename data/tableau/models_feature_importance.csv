@@ -1,0 +1,23 @@
+Model,Feature,Importance
+Random Forest (Under-Sampled 1:1),explicit,0.006267211
+Random Forest (Under-Sampled 1:1),is_collaboration,0.007235394
+Random Forest (Under-Sampled 1:1),danceability,0.096382674
+Random Forest (Under-Sampled 1:1),tempo,0.096994116
+Random Forest (Under-Sampled 1:1),liveness,0.097734429
+Random Forest (Under-Sampled 1:1),speechiness,0.101343671
+Random Forest (Under-Sampled 1:1),loudness,0.104103982
+Random Forest (Under-Sampled 1:1),valence,0.10856139
+Random Forest (Under-Sampled 1:1),acousticness,0.109338314
+Random Forest (Under-Sampled 1:1),energy,0.109370331
+Random Forest (Under-Sampled 1:1),instrumentalness,0.162668489
+XGBoost (Hybrid),instrumentalness,0.1667134
+XGBoost (Hybrid),is_collaboration,0.14968917
+XGBoost (Hybrid),explicit,0.14260063
+XGBoost (Hybrid),acousticness,0.079230264
+XGBoost (Hybrid),valence,0.06798967
+XGBoost (Hybrid),liveness,0.066140756
+XGBoost (Hybrid),speechiness,0.06598831
+XGBoost (Hybrid),energy,0.06585652
+XGBoost (Hybrid),loudness,0.065826416
+XGBoost (Hybrid),tempo,0.06561202
+XGBoost (Hybrid),danceability,0.0643528

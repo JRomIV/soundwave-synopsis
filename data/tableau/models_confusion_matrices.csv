@@ -1,0 +1,9 @@
+﻿Model,Actual,Predicted,Count
+Random Forest (Under-Sampled 1:1),0,0,2518
+Random Forest (Under-Sampled 1:1),0,1,1562
+Random Forest (Under-Sampled 1:1),1,0,1068
+Random Forest (Under-Sampled 1:1),1,1,3013
+XGBoost (Hybrid),0,0,13549
+XGBoost (Hybrid),0,1,2773
+XGBoost (Hybrid),1,0,2644
+XGBoost (Hybrid),1,1,5517
