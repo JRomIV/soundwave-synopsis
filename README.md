@@ -28,10 +28,10 @@ The dashboard used in the analysis can be accessed [here](https://public.tableau
 
 # Data
 ### Data source
-The data for this analysis was sourced from the [MusicOSet](https://marianaossilva.github.io/DSW2019/) database, which provides a large dataset of Billboard charts from 1962 to 2018. It includes but is not limited to artists, songs, and albums based on musical popularity classification. This dataset is particularly suitable for tasks in music data mining, such as data visualization, classification, clustering, and similarity search.
+The data for this analysis was sourced from the [MusicOSet](https://marianaossilva.github.io/DSW2019/) database, which provides a large dataset of Billboard charts from 1964 to 2018. It includes but is not limited to artists, songs, and albums based on musical popularity classification. This dataset is particularly suitable for tasks in music data mining, such as data visualization, classification, clustering, and similarity search.
 
 ### Data Import and Management
-The data was imported using MySQL and managed with MySQL Workbench. The MusicOSet database consists of 13 tables, which were queried to perform the analysis. An indepth description of every table and column can be found in the [metadata ](data/metadata.txt) file.
+The data was imported using MySQL and managed with MySQL Workbench. The MusicOSet database consists of 13 tables, which were queried to perform the analysis. An in-depth description of every table and column can be found in the [metadata ](data/metadata.txt) file.
 
 ![schema](assets/eer_diagram.png)
 
@@ -179,9 +179,7 @@ WHERE
 
 ## 2. Which genres have dominated the Billboard charts over time?
 
-To understand changes in musical taste, I used the summation of the genres **Year End Score**  (year over year). The line chart below focuses on the four most influential genres: **Rock**, **Pop**, **Hip Hop**, and **Country & Folk**. ALthough **Jazz** was a the 5th largest genre, I cut it for the sake of image clarity. Further exploration can be accessed where the dashboard is avaialble.
-
-To get a sense of how musical tastes have shifted, I summed the **Year End Score** by genre for each year. The line chart below highlights the four most influential genres: **Rock**, **Pop**, **Hip Hop**, and **Country & Folk**. While **Jazz** ranked fifth overall, I left it out here to keep the image from getting too cluttered. You can explore all genres in more detail through the dashboard mentioned above.
+To get a sense of how musical tastes have shifted, I summed the **Year End Score** by genre for each year. The line chart below highlights the four most influential genres: **Rock**, **Pop**, **Hip Hop**, and **Country & Folk**. While **Jazz** ranked fifth overall, I left it out to keep the image from getting too cluttered. You can explore all genres in more detail through the dashboard mentioned above.
 
 ![Top Genres Over Time](assets/genres_over_time.png)
 
@@ -218,14 +216,14 @@ ORDER BY
 
 ## 3. How have musical attributes evolved from the 1960s to today?
 
-To dive a bit deeper into how music has changed over time, I also calculated the yearly averages for several musical attributes (e.g., energy, valence, loudness) grouped by Billboard and non-Billboard songs. The trellis chart below, illustrates the 9 acoustic features from 1964 onward.
+To dive a bit deeper into how music has changed over time, I also calculated the yearly averages for several musical attributes (e.g., energy, valence, loudness) grouped by Billboard and non-Billboard songs. The trellis chart below illustrates the 9 acoustic features from 1964 onward.
 
 
 ![Acoustic Features Trellis](assets/trellis.png)
 
 **Note**: non-hit songs appear from the 1990s onward.
 
-**Insight:** Songs have gradually become louder and more explicit since the 1990s. Acousticness has plummeted, especially with Billboard hits, while danceability and energy have been somewhat stable since the 80's. The differences between billboard hits and non-hits are also noteworthy, hit songs tend to be more danceable, more energetic, louder, and less acoustic.
+**Insight:** Songs have gradually become louder and more explicit since the 1990s. Acousticness has plummeted, especially with Billboard hits, while danceability and energy have been somewhat stable since the 80s. The differences between billboard hits and non-hits are also noteworthy, hit songs tend to be more danceable, more energetic, louder, and less acoustic.
 
 
 
@@ -270,7 +268,7 @@ ORDER BY
 
 ## 4. Can we predict whether a song becomes a Billboard hit using its audio features?
 
-To explore this, I used classification models to predict whether a song was a Billboard hit based on attrubutes like tempo, energy, and whether the song was explicit or a collaboration. I used two models, **Random Forest** and **XGBoost** and tried different ways of balancing the data to see what worked best.
+To explore this, I used classification models to predict whether a song was a Billboard hit based on attributes like tempo, energy, and whether the song was explicit or a collaboration. I used two models, **Random Forest** and **XGBoost** and tried different ways of balancing the data to see what worked best.
 
 Only about 2% of the songs in the dataset were Billboard hits, so the data was very imbalanced. To deal with this, I created three different versions of the dataset:
 - **Complete Dataset** – all songs (very imbalanced)
