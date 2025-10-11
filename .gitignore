@@ -1,1 +1,6 @@
 other/
+*.twbr
+~$*
+~*.twb*
+~*.twbx*
+*.twb.backup
