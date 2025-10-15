@@ -73,19 +73,22 @@ SELECT
     DENSE_RANK() OVER(ORDER BY SUM(apop.year_end_score) DESC) AS artist_rank,
     a.artist_id,
     a.artist_name,
-    a.main_genre,
+    g.parent_genre AS main_genre,
     SUM(apop.year_end_score) AS total_year_end_score
 FROM
     artist_pop apop
 INNER JOIN
 	artists a
     ON apop.artist_id = a.artist_id
+LEFT JOIN
+	genres g
+    ON a.main_genre = g.main_genre
 WHERE
 	a.artist_name != 'Various Artists' 
 GROUP BY
 	a.artist_id,
     a.artist_name,
-    a.main_genre
+    g.parent_genre
 )
 SELECT
 	*
@@ -113,7 +116,7 @@ WITH cte AS (
         alb.album_id,
         alb.album_name,
         a.artist_name,
-        a.main_genre,
+        g.parent_genre AS main_genre,
         SUM(apop.year_end_score) AS total_year_end_score
     FROM
         album_pop apop
@@ -123,8 +126,14 @@ WITH cte AS (
     LEFT JOIN 
 		artists a 
         ON alb.artist_id = a.artist_id
+	LEFT JOIN
+		genres g
+        ON a.main_genre = g.main_genre
     GROUP BY 
-		alb.album_id, alb.album_name, a.artist_name, a.main_genre
+		alb.album_id, 
+        alb.album_name, 
+        a.artist_name, 
+        g.parent_genre
 )
 SELECT 
 	* 
@@ -153,7 +162,7 @@ WITH cte AS (
         s.song_id,
         s.song_name,
         a.artist_name,
-        a.main_genre,
+        g.parent_genre AS main_genre,
         SUM(spop.year_end_score) AS total_year_end_score
     FROM
         song_pop spop
@@ -162,9 +171,16 @@ WITH cte AS (
         ON s.song_id = spop.song_id
     LEFT JOIN 
 		artists a 
-        ON a.artist_id = s.artist_id 
+        ON a.artist_id = s.artist_id
+	LEFT JOIN
+		genres g
+        ON a.main_genre = g.main_genre
     GROUP BY 
-		s.song_id, s.song_name, a.artist_id, a.artist_name, a.main_genre
+		s.song_id, 
+        s.song_name, 
+        a.artist_id, 
+        a.artist_name, 
+        g.parent_genre
 )
 SELECT 
 	* 
@@ -192,7 +208,7 @@ To get a sense of how musical tastes have shifted, I summed the **Year End Score
 -- Most popular genres year over year (year end score)
 SELECT 
     sp.year,
-    a.main_genre, 
+    g.parent_genre AS main_genre, 
     SUM(sp.year_end_score) AS total_score
 FROM 
     song_pop sp
@@ -202,11 +218,14 @@ INNER JOIN
 INNER JOIN 
     artists a 
     ON s.artist_id = a.artist_id
+LEFT JOIN
+	genres g
+    ON a.main_genre = g.main_genre
 WHERE 
     a.main_genre IS NOT NULL
 GROUP BY 
     sp.year, 
-    a.main_genre
+    g.parent_genre
 ORDER BY 
     sp.year,
     total_score DESC;

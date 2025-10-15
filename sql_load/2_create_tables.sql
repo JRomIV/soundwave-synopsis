@@ -1,152 +1,196 @@
+USE musicoset;
+
 -- create table for acoustic_features
+DROP TABLE IF EXISTS acoustic_features;
+
 CREATE TABLE acoustic_features 
 (
-  song_id VARCHAR(22) PRIMARY KEY,
-  duration_ms INT,
-  `key` INT,
-  mode INT,
-  time_signature INT,
-  acousticness DECIMAL(11,6),
-  danceability DECIMAL(4,3),
-  energy DECIMAL(6,5),
-  instrumentalness DECIMAL(12,7),
-  liveness DECIMAL(5,4),
-  loudness DECIMAL(6,3),
-  speechiness DECIMAL(6,4),
-  valence DECIMAL(5,4),
-  tempo DECIMAL(6,3)
-); 
-
-
--- create table for albums
-CREATE TABLE albums 
-(
-  album_id VARCHAR(22) PRIMARY KEY,
-  name VARCHAR(292),
-  billboard VARCHAR(75),
-  artists VARCHAR(2228),
-  popularity INT,
-  total_tracks INT,
-  album_type VARCHAR(11),
-  image_url VARCHAR(64)
-);
+  song_id varchar(35) NOT NULL,
+  duration_ms int,
+  `key` int,
+  `mode` int,
+  time_signature int,
+  acousticness DOUBLE,
+  danceability DOUBLE,
+  energy DOUBLE,
+  instrumentalness DOUBLE,
+  liveness DOUBLE,
+  loudness DOUBLE,
+  speechiness DOUBLE,
+  valence DOUBLE,
+  tempo DOUBLE,
+  PRIMARY KEY (song_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for album_chart
+DROP TABLE IF EXISTS album_chart;
+
 CREATE TABLE album_chart 
 (
-  album_id VARCHAR(22) PRIMARY KEY,
-  rank_score INT,
-  peak_position INT,
-  weeks_on_chart INT,
-  week DATE
-);
+  album_id varchar(22) NOT NULL,
+  rank_score int,
+  peak_position int,
+  weeks_on_chart int,
+  `week` date
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for album_pop
+DROP TABLE IF EXISTS album_pop;
+
 CREATE TABLE album_pop 
 (
-  album_id VARCHAR(22) PRIMARY KEY,
-  year_end_score INT,
-  is_pop VARCHAR(5),
-  year INT
-);
+  album_id varchar(22) NOT NULL,
+  year_end_score int,
+  is_pop tinyint,
+  `year` int
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
--- create table for artists
-CREATE TABLE artists 
+-- create table for albums
+DROP TABLE IF EXISTS albums;
+
+CREATE TABLE albums 
+
 (
-  artist_id VARCHAR(22) PRIMARY KEY,
-  name VARCHAR(91),
-  followers INT,
+  album_id VARCHAR(22) NOT NULL,
+  album_name VARCHAR(512),
   popularity INT,
-  artist_type VARCHAR(6),
-  main_genre VARCHAR(33),
-  genres VARCHAR(401),
-  image_url VARCHAR(64)
-);
+  total_tracks INT,
+  album_type VARCHAR(20),
+  artist_id VARCHAR(75),
+  PRIMARY KEY (album_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for artist_chart
+DROP TABLE IF EXISTS artist_chart;
+
 CREATE TABLE artist_chart 
 (
-  artist_id VARCHAR(22),
-  rank_score INT,
-  peak_position INT,
-  weeks_on_chart INT,
-  week DATE
-);
+  artist_id varchar(22),
+  rank_score int,
+  peak_position int,
+  weeks_on_chart int,
+  `week` date
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for artist_pop
+DROP TABLE IF EXISTS artist_pop;
+
 CREATE TABLE artist_pop 
 (
-  artist_id VARCHAR(22),
-  year_end_score INT,
-  is_pop VARCHAR(5),
-  year INT
-);
+  artist_id varchar(22),
+  year_end_score int,
+  is_pop tinyint,
+  `year` int
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
+-- create table for artists
+DROP TABLE IF EXISTS artists;
+
+CREATE TABLE artists 
+(
+  artist_id varchar(22) NOT NULL,
+  artist_name varchar(255),
+  followers int,
+  popularity int,
+  artist_type varchar(6),
+  genres varchar(401),
+  main_genre varchar(50),
+  PRIMARY KEY (artist_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- create table for releases
+DROP TABLE IF EXISTS releases;
+
 CREATE TABLE releases 
 (
-  artist_id VARCHAR(22),
-  album_id VARCHAR(22),
-  release_date VARCHAR(10),
-  release_date_precision VARCHAR(5),
-  PRIMARY KEY(artist_id, album_id)
-);
-
-
--- create table for songs
-CREATE TABLE songs 
-(
-  song_id VARCHAR(22) PRIMARY KEY,
-  song_name VARCHAR(194),
-  billboard VARCHAR(112),
-  artists VARCHAR(671),
-  popularity INT,
-  explicit VARCHAR(5),
-  song_type VARCHAR(13)
-);
+  artist_id varchar(22) NOT NULL,
+  album_id varchar(22) NOT NULL,
+  release_date varchar(10),
+  release_date_precision varchar(5),
+  PRIMARY KEY (artist_id,album_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for song_chart
+DROP TABLE IF EXISTS song_chart;
+
 CREATE TABLE song_chart 
 (
-  song_id VARCHAR(22),
-  rank_score INT,
-  peak_position INT,
-  weeks_on_chart INT,
-  week date
-);
+  song_id varchar(35),
+  rank_score int,
+  peak_position int,
+  weeks_on_chart int,
+  `week` date
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for song_pop
+DROP TABLE IF EXISTS song_pop;
+
 CREATE TABLE song_pop 
 (
-  song_id VARCHAR(22),
-  year_end_score INT,
-  is_pop VARCHAR(5),
-  year INT
-);
+  song_id varchar(35),
+  year_end_score int,
+  is_pop tinyint,
+  `year` int
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- create table for songs
+DROP TABLE IF EXISTS songs;
+
+CREATE TABLE songs 
+(
+  song_id VARCHAR(35) NOT NULL,
+  song_name VARCHAR(255),
+  billboard VARCHAR(255),
+  popularity INT,
+  explicit TINYINT,
+  song_type VARCHAR(13),
+  artist_extracted TEXT,
+  is_billboard TINYINT DEFAULT '0',
+  artist_id VARCHAR(75),
+  PRIMARY KEY (song_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 -- create table for tracks
+DROP TABLE IF EXISTS tracks;
+
 CREATE TABLE tracks 
 (
-  song_id VARCHAR(22),
-  album_id VARCHAR(22),
-  track_number INT,
-  release_date VARCHAR(10),
-  release_date_precision VARCHAR(5),
-  PRIMARY KEY(song_id, album_id)
-);
+  song_id varchar(35) NOT NULL,
+  album_id varchar(22) NOT NULL,
+  track_number int,
+  release_date varchar(10),
+  release_date_precision varchar(5),
+  release_date_standard date,
+  PRIMARY KEY (song_id,album_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
 
 -- create table for lyrics
+DROP TABLE IF EXISTS lyrics;
+
 CREATE TABLE lyrics 
 (
-    song_id VARCHAR(22) PRIMARY KEY,
-    lyrics LONGTEXT
-);
+  song_id VARCHAR(35) NOT NULL,
+  lyrics LONGTEXT,
+  PRIMARY KEY (song_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- create table for genres
+DROP TABLE IF EXISTS genres;
+CREATE TABLE genres
+(
+  main_genre   VARCHAR(50) PRIMARY KEY,
+  parent_genre VARCHAR(50)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
