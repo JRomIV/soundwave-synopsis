@@ -1,6 +1,6 @@
--- Tableau passthrough exports
--- Create Tableau popularity exports with standardized genre fields.
--- Data without a usable main_genre are excluded so dashboard filters remain consistent.
+-- Tableau export queries
+-- These queries create Tableau CSV exports
+-- Popularity exports are combined with names and parent genres
 
 -- Updated artist pop
 SELECT
@@ -63,64 +63,18 @@ WHERE
 	g.parent_genre IS NOT NULL;
 
 
--- Dim Year
--- Creates a shared year dimension for dashboard level filtering.
--- Limited to the popularity exports because these are the base tables
-SELECT DISTINCT year
-FROM artist_pop
-WHERE year IS NOT NULL
-UNION
-SELECT DISTINCT year
-FROM album_pop
-WHERE year IS NOT NULL
-UNION
-SELECT DISTINCT year
-FROM song_pop
-WHERE year IS NOT NULL
-ORDER BY year;
-
-
--- Dim Genre
--- for Tableau dashboard level filtering.
-SELECT DISTINCT
-	parent_genre
-FROM
-	genres
-WHERE
-	parent_genre IS NOT NULL
-    AND parent_genre <> '-'
-ORDER BY
-	parent_genre;
-    
-
 -- Acoustic features export
 SELECT
-	*
+	af.*
 FROM
-	acoustic_features;
+	acoustic_features af
+INNER JOIN
+	songs s
+    ON af.song_id = s.song_id
+    AND s.is_billboard = 1;
 
 
--- Albums export
-SELECT
-	*
-FROM
-	albums;
-
-
--- Artists export
-SELECT
-	*
-FROM
-	artists;
-
--- Songs export
-SELECT
-	*
-FROM
-	songs;
-
-
--- Billboard vs non-hits year over year (avg_af_allsongs)
+-- Billboard vs non-hits year over year
 SELECT 
     YEAR(t.release_date_standard) AS year,
     s.is_billboard,
@@ -137,13 +91,16 @@ SELECT
 FROM 
 	songs s
 INNER JOIN 
-	tracks t ON s.song_id = t.song_id
+	tracks t
+    ON s.song_id = t.song_id
 INNER JOIN 
-	acoustic_features ac ON s.song_id = ac.song_id
+	acoustic_features ac
+    ON s.song_id = ac.song_id
 WHERE 
 	YEAR(t.release_date_standard) >= 1964
 GROUP BY 
-	YEAR(t.release_date_standard), is_billboard
+	YEAR(t.release_date_standard),
+    s.is_billboard
 ORDER BY 
-	year ASC, is_billboard DESC;
-
+	year ASC,
+    s.is_billboard DESC;
