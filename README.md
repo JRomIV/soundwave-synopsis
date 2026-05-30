@@ -13,8 +13,8 @@ The goal is to better understand what makes a song popular and whether it’s po
 
 # Tools 
 ### Dashboard
-The dashboard used in the analysis can be accessed [here](https://public.tableau.com/app/profile/jromiv/viz/soundwave_synopsis/Dashboard).
-![dashboard](assets/dashboard.png)
+The dashboard used in the analysis can be accessed [here](https://public.tableau.com/app/profile/jromiv/viz/BillboardMusicTrendsandVisualizations/Dashboard).
+![dashboard](assets/billboard_dashboard.png)
 
 
 ### Technology Stack
