@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Load data
-df = pd.read_csv("sql_lyrics.tsv", sep="\t", encoding="utf-8", quoting=3)
+df = pd.read_csv("sql_lyrics.tsv.gz", sep="\t", encoding="utf-8", quoting=3, compression='gzip')
 
 
 # Define stopwords and ensure lowercase
@@ -45,4 +45,4 @@ df_top_25 = df_word_counts.groupby(["year", "genre"], group_keys=True)[["word", 
 df_top_25 = df_top_25.drop(columns=["level_2"], errors="ignore")
 
 # Save to CSV
-df_top_25.to_csv("word_count.csv", index=False)
+df_top_25.to_csv("lyric_count.csv", index=False)

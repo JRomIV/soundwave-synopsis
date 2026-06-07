@@ -1,9 +1,10 @@
--- lyrics export for tableau visualization 
+-- lyrics export for word analysis 
+-- Replacing varoius line breaks with space to ensure a clean export  
 SELECT 
     l.song_id, 
     sp.year, 
-    g.parent_genre AS genre, 
-    l.lyrics
+    g.parent_genre AS genre,
+	REPLACE(REPLACE(REPLACE(l.lyrics, '\r', ' '), '\n', ' '), '\t', ' ') AS lyrics
 FROM 
     lyrics l
 INNER JOIN 
@@ -17,6 +18,3 @@ LEFT JOIN
     ON a.main_genre = g.main_genre
 WHERE 
     l.lyrics IS NOT NULL;
-
-
-
